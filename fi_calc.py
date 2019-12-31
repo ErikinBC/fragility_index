@@ -18,8 +18,8 @@ os.chdir(dir_base)
 import funs_fi as fi
 
 # Load in existing processed data
-df_FI = pd.read_csv(os.path.join(dir_base,'df_FI.csv'))
-df_inf = pd.read_csv(os.path.join(dir_base,'df_inf.csv'))
+df_FI = pd.read_csv(os.path.join(dir_base,'processed','df_FI.csv'))
+df_inf = pd.read_csv(os.path.join(dir_base,'processed','df_inf.csv'))
 
 ####################################################
 # ----- Step 2: CALCULATE FI + ACTUAL P-VALULE --- #
@@ -54,7 +54,7 @@ for ii, rr in df_FI.iterrows():
 
 # Combine
 df_res = pd.concat(holder,axis=1).T
-df_res.to_csv(os.path.join(dir_base,'df_res.csv'),index=False)
+df_res.to_csv(os.path.join(dir_base,'processed','df_res.csv'),index=False)
 
 if not df_res.shape[0] == df_FI.shape[0]:
     import sys; sys.exit('error! IDs do not line up!')

@@ -142,9 +142,12 @@ df_inf['statistician'] = [sf.di_statistician[x] for x in df_inf.statistician]
 # Do feature transformations for consistent comparisons
 df_inf['study_design'] = np.where(df_inf.study_design.str.contains('RCT'),'RCT','Other')
 
+if 'processed' not in os.listdir(dir_base):
+    os.mkdir(os.path.join(dir_base,'processed'))
+
 # --- SAVE --- #
-df_FI.to_csv(os.path.join(dir_base,'df_FI.csv'),index=False)
-df_inf.to_csv(os.path.join(dir_base,'df_inf.csv'),index=False)
+df_FI.to_csv(os.path.join(dir_base,'processed','df_FI.csv'),index=False)
+df_inf.to_csv(os.path.join(dir_base,'processed','df_inf.csv'),index=False)
 
 #def whatisdiff(x,y):
 #    d1 = ', '.join(np.setdiff1d(x,y).astype(str))
