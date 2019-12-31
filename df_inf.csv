@@ -1,0 +1,301 @@
+tt,ID,journal,IF,year,geo,h_index,citation,wcitation,plum1,plum2,plum3,study_design,type_random,concealment,blinding,topic,power_just,pval_rep,outcome,statistician,funding
+bbd,73233,1,5.157,2013,1,5.0,17,1.04,27.0,61.0,1.0,RCT,Simple,Yes,Yes,Nocturnal Enuresis,No,0.002,Primary,No,Yes
+bbd,35727,2,1.736,2010,2,9.0,5,0.45,82.0,42.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.01,Secondary,No,No
+bbd,34442,1,5.157,2003,3,26.0,42,2.59,14.0,20.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.006,Primary,No,No
+bbd,70209,4,0.152,2013,5,5.0,18,0.91,27.0,20.0,0.0,RCT,electronic,Yes,No,Nocturnal Enuresis,Yes,0.019,Secondary,No,No
+bbd,33903,5,3.258,1982,6,2.0,31,0.0,9.0,1.0,0.0,RCT,Simple,Yes,No,Nocturnal Enuresis,No,0.03,Primary,No,No
+bbd,26684,54,0.912,2016,8,1.0,0,0.0,0.0,0.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.002,Primary,No,No
+bbd,43715,7,4.524,2009,9,28.0,32,1.54,470.0,45.0,0.0,Other,NA,NA,NA,OAB,No,0.001,Secondary,No,No
+bbd,943,8,1.949,2017,1,4.0,1,0.28,153.0,49.0,7.0,RCT,Simple,Yes,No,Nocturnal Enuresis,No,0.002,Primary,No,No
+bbd,69,6,1.046,2018,11,6.0,3,1.46,307.0,9.0,0.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.01,Primary,No,No
+bbd,66637,9,0.387,2012,11,7.0,0,0.0,0.0,0.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.003,Primary,No,No
+bbd,31616,10,5.417,2008,10,24.0,59,2.6,2338.0,189.0,0.0,RCT,Blocked,Yes,Yes,Nocturnal Enuresis,Yes,0.05,Primary,Yes,Yes
+bbd,31578,11,0.588,2008,2,4.0,2,0.0,0.0,6.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.05,Primary,No,No
+bbd,30616,12,2.265,2006,13,17.0,44,1.03,943.0,103.0,0.0,Other,NA,NA,NA,Incontinence,No,0.05,Primary,No,Yes
+bbd,823,13,0.23,2016,11,3.0,1,0.14,12.0,11.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.0009,Primary,No,No
+bbd,30695,14,1.92,2007,11,18.0,8,0.53,109.0,4.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.002,Primary,No,No
+bbd,34020,16,1.179,1991,14,1.0,47,0.0,178.0,21.0,1.0,RCT,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,35591,10,5.417,2009,10,15.0,51,2.34,1116.0,195.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,9830,10,5.417,2006,10,15.0,18,1.2,1495.0,129.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,30643,7,4.524,2006,15,17.0,8,0.0,310.0,50.0,0.0,Other,NA,NA,NA,Incontinence,No,0.01,Primary,No,No
+bbd,45362,1,5.157,2013,15,17.0,21,1.43,100.0,162.0,3.0,Other,NA,NA,NA,OAB,No,0.02,Primary,No,No
+bbd,34126,17,6.129,1995,10,152.0,44,0.0,587.0,69.0,0.0,Other,NA,NA,NA,Incontinence,No,0.01,Primary,No,No
+bbd,33896,18,4.134,1982,16,4.0,19,0.0,114.0,49.0,0.0,RCT,Not Stated,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,762,1,5.157,2017,17,4.0,6,1.31,22.0,63.0,7.0,RCT,electronic,Yes,Yes,Incontinence,Yes,0.05,Primary,No,No
+bbd,34137,12,2.265,1995,18,6.0,62,0.0,0.0,5.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.005,Primary,No,No
+bbd,35048,20,0.641,2014,11,8.0,1,0.0,601.0,19.0,0.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.01,Primary,No,No
+bbd,65819,26,0.421,2009,16,19.0,0,0.0,0.0,0.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,35002,2,1.736,2013,7,13.0,6,0.46,19.0,21.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.05,Secondary,No,No
+bbd,24838,2,1.736,2016,15,3.0,3,0.51,40.0,42.0,2.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,35024,1,5.157,2013,15,7.0,19,0.91,51.0,93.0,1.0,RCT,electronic,Yes,No,Nocturnal Enuresis,No,0.03,Primary,No,Yes
+bbd,674,2,1.736,2017,15,7.0,3,0.8,33.0,75.0,10.0,RCT,electronic,Yes,Yes,OAB,No,0.03,Primary,No,No
+bbd,1302,24,2.36,2019,15,0.0,0,0.0,0.0,29.0,1.0,RCT,Simple,NA,NA,Dysfunctional voiding,No,0.483,Primary,Yes,No
+bbd,23434,25,0.339,2018,11,6.0,0,0.0,0.0,0.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,58335,22,0.392,2008,2,4.0,1,0.0,0.0,2.0,0.0,RCT,Simple,No,No,Nocturnal Enuresis,No,0.008,Secondary,No,No
+bbd,30219,15,2.816,2005,19,27.0,25,1.22,356.0,20.0,0.0,RCT,Simple,Yes,No,Nocturnal Enuresis,Yes,0.014,Primary,No,No
+bbd,31717,15,2.816,2008,3,22.0,26,1.13,830.0,44.0,0.0,RCT,Not Stated,No,No,Nocturnal Enuresis,Yes,0.001,Primary,No,No
+bbd,35588,21,1.409,2009,10,7.0,6,0.5,127.0,12.0,0.0,RCT,Blocked,Yes,Yes,Nocturnal Enuresis,Yes,0.033,Primary,Yes,Yes
+bbd,34443,1,5.157,2003,10,2.0,50,1.33,24.0,40.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,Yes,Yes
+bbd,35779,15,2.816,2011,3,16.0,17,0.82,2409.0,78.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.04,Primary,No,No
+bbd,35089,1,5.157,2014,11,11.0,18,1.64,85.0,56.0,3.0,RCT,electronic,Yes,Yes,Nocturnal Enuresis,Yes,35747.0,Primary,Yes,No
+bbd,60784,28,1.163,2009,2,14.0,9,0.67,0.0,0.0,0.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.001,Primary,No,No
+bbd,43750,1,5.157,2010,17,13.0,22,0.51,91.0,50.0,2.0,RCT,Not Stated,Not specified,Not specified,Incontinence,Yes,0.001,Primary,No,Yes
+bbd,34906,29,13.994,2000,21,9.0,26,1.42,13.0,10.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.007,Secondary,No,No
+bbd,35767,1,5.157,2011,13,44.0,20,0.86,98.0,52.0,0.0,Other,NA,NA,NA,Incontinence,No,0.0001,Primary,Yes,No
+bbd,26279,1,5.157,1993,10,38.0,40,0.0,0.0,8.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,791,30,1.683,2017,11,4.0,2,0.71,62.0,13.0,2.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.007,Primary,No,No
+bbd,35747,1,5.157,2011,11,8.0,15,0.86,230.0,48.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,68091,27,1.26,2017,10,12.0,3,0.27,31.0,19.0,1.0,Other,NA,NA,NA,rUTI,No,0.0001,Primary,No,No
+bbd,30945,3,2.365,2007,11,9.0,16,0.84,181.0,11.0,0.0,RCT,NA,NA,NA,Dysfunctional voiding,No,0.04,Primary,No,No
+bbd,43635,3,2.365,2010,11,15.0,20,0.64,283.0,32.0,0.0,RCT,Not Stated,Not specified,Not specified,Dysfunctional voiding,No,0.04,Primary,No,No
+bbd,69413,9,0.387,2013,2,0.0,4,0.0,0.0,0.0,0.0,RCT,Simple,Yes,Yes,Nocturnal Enuresis,No,0.049,Primary,No,No
+bbd,34925,31,1.401,2000,11,1.0,3,0.14,102.0,7.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,3228,2,1.736,2018,22,9.0,0,0.0,15.0,7.0,15.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,6894,2,1.736,2015,22,9.0,6,0.94,46.0,16.0,1.0,RCT,Simple,Not specified,Yes,Nocturnal Enuresis,No,0.04,Primary,No,No
+bbd,16898,32,0.8,2017,23,3.0,0,0.0,38.0,3.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.04,Primary,No,No
+bbd,27569,3,2.365,2015,2,24.0,13,1.21,189.0,139.0,0.0,RCT,Blocked,Yes,Yes,Dysfunctional voiding,Yes,0.001,Secondary,No,No
+bbd,45804,33,2.24,2014,2,6.0,14,0.9,1476.0,159.0,1.0,RCT,Blocked,Yes,Yes,Dysfunctional voiding,No,0.01,Primary,No,No
+bbd,23065,34,6.129,1990,24,30.0,52,0.0,220.0,262.0,0.0,Other,NA,NA,NA,Incontinence,No,0.004,Secondary,No,No
+bbd,34770,35,2.133,1998,6,19.0,19,0.91,21.0,2.0,0.0,RCT,Not Stated,Not specified,Yes,Nocturnal Enuresis,Yes,0.012,Primary,Yes,Yes
+bbd,24930,7,4.524,2015,2,24.0,16,2.29,152.0,87.0,3.0,RCT,Blocked,Yes,Not specified,voiding postponement,Yes,0.006,Primary,No,No
+bbd,35210,15,2.816,2015,2,24.0,10,0.98,480.0,77.0,1.0,RCT,Blocked,Yes,Yes,Nocturnal Enuresis,Yes,0.01,Primary,No,No
+bbd,27398,31,1.401,2015,11,5.0,1,0.12,61.0,13.0,0.0,Other,NA,NA,NA,Incontinence,No,0.01,Primary,No,No
+bbd,35618,1,5.157,2009,20,33.0,21,2.05,136.0,31.0,0.0,Other,NA,NA,NA,Incontinence,No,0.05,Secondary,No,No
+bbd,43614,1,5.157,2010,25,5.0,11,0.64,92.0,28.0,0.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.0001,Primary,No,No
+bbd,40,36,1.733,2018,2,24.0,1,2.87,39.0,11.0,1.0,RCT,Blocked,Yes,No,Incontinence,Yes,0.01,Primary,No,No
+bbd,44146,1,5.157,2010,15,17.0,56,2.06,96.0,170.0,0.0,RCT,Simple,Yes,Yes,OAB,No,0.01,Primary,No,Yes
+bbd,578,37,0.731,2017,19,10.0,0,0.0,174.0,12.0,1.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.007,Primary,No,Yes
+bbd,17852,38,0.719,2017,19,10.0,1,0.0,307.0,21.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,1e-06,Primary,No,Yes
+bbd,16174,39,1.069,2018,19,10.0,0,0.0,0.0,0.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.003,Primary,No,Yes
+bbd,2978,2,1.736,2019,19,10.0,0,0.0,0.0,5.0,5.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.026,Secondary,No,Yes
+bbd,2332,6,1.097,2019,19,10.0,0,0.0,0.0,6.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.002,Primary,No,Yes
+bbd,35008,41,2.007,2013,10,11.0,21,1.91,414.0,73.0,2.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.006,Primary,Yes,Yes
+bbd,6577,42,0.587,2009,2,6.0,3,0.17,0.0,0.0,0.0,RCT,Not Stated,Not specified,Yes,Nocturnal Enuresis,No,0.04,Primary,No,Yes
+bbd,35838,7,4.524,2012,3,10.0,17,0.69,294.0,8.0,4.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.01,Secondary,No,No
+bbd,35847,44,1.2,2012,2,6.0,18,1.14,0.0,23.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,21436,43,6.8,1984,4,20.0,8,0.0,0.0,6.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.05,Primary,No,No
+bbd,48843,7,4.524,1998,27,34.0,21,1.66,138.0,20.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,27543,1,5.157,2015,11,12.0,19,2.02,168.0,47.0,3.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,Yes,0.006,Primary,No,No
+bbd,35081,15,2.816,2014,26,10.0,10,1.12,387.0,29.0,3.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.002,Primary,No,Yes
+bbd,28003,2,1.736,2015,14,19.0,15,2.05,74.0,141.0,0.0,RCT,Not Stated,Not specified,Yes,OAB,No,0.001,Primary,No,No
+bbd,3246,2,1.736,2018,2,11.0,1,0.61,32.0,13.0,6.0,RCT,Blocked,Yes,Yes,Nocturnal Enuresis,Yes,0.03,Primary,No,Yes
+bbd,31539,28,1.163,2008,14,8.0,4,0.0,0.0,0.0,0.0,Other,NA,NA,NA,rUTI,No,0.0006,Primary,No,No
+bbd,35791,40,1.356,2012,15,9.0,6,0.28,110.0,25.0,1.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,59422,31,1.401,2009,3,22.0,52,2.7,2851.0,364.0,0.0,RCT,Not Stated,Not specified,Not specified,rUTI,No,0.05,Primary,No,No
+bbd,34807,3,2.365,1999,1,1.0,16,1.08,22.0,17.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.032,Primary,No,No
+bbd,69809,45,1.741,2013,3,47.0,61,2.38,0.0,31.0,5.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,34240,31,1.401,2001,3,22.0,9,0.15,110.0,13.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.05,Primary,No,No
+bbd,24008,46,3.615,1991,25,3.0,18,0.0,22.0,4.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,19604,47,12.004,1971,10,4.0,23,0.0,3.0,0.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,41142,1,5.157,2003,10,31.0,54,2.94,6.0,16.0,0.0,Other,NA,NA,NA,Incontinence,No,0.01,Primary,No,No
+bbd,35071,24,2.36,2014,17,37.0,15,0.96,39.0,27.0,2.0,Other,NA,NA,NA,Incontinence,No,0.001,Primary,No,Yes
+bbd,34132,1,5.157,1995,10,39.0,20,0.0,1.0,1.0,0.0,RCT,Not Stated,Not specified,Yes,Nocturnal Enuresis,No,0.002,Primary,No,Yes
+bbd,66007,48,0.624,2016,11,6.0,3,0.43,303.0,31.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Secondary,No,No
+bbd,22797,1,5.157,1989,28,2.0,60,0.0,3.0,7.0,0.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.001,Primary,No,No
+bbd,1112,3,2.365,2016,2,12.0,7,0.87,117.0,7.0,6.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,34688,1,5.157,1997,10,28.0,47,3.46,7.0,2.0,0.0,RCT,Not Stated,Not specified,Yes,Nocturnal Enuresis,No,0.05,Primary,No,Yes
+bbd,34187,5,3.258,1996,18,1.0,32,1.59,7.0,7.0,0.0,RCT,Not Stated,Not specified,Yes,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,888,6,1.046,2016,15,2.0,0,0.0,847.0,26.0,0.0,Other,NA,NA,NA,OAB,No,0.001,Primary,No,No
+bbd,44929,5,3.258,2013,11,17.0,0,0.0,355.0,38.0,1.0,Other,NA,NA,NA,rUTI,No,0.001,Primary,No,No
+bbd,39623,3,2.365,1999,11,19.0,40,1.29,7.0,4.0,0.0,Other,NA,NA,NA,OAB,No,0.01,Primary,No,No
+bbd,31326,1,5.157,2008,19,8.0,19,1.22,70.0,23.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,35004,49,1.136,2012,14,1.0,14,1.39,66.0,18.0,4.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Secondary,No,No
+bbd,30670,50,2.901,2006,10,10.0,41,0.54,263.0,77.0,1.0,RCT,Not Stated,Not specified,Yes,Nocturnal Enuresis,No,0.042,Primary,Yes,Yes
+bbd,30266,1,5.157,2005,25,31.0,39,1.85,3.0,24.0,0.0,RCT,Not Stated,Not specified,Not specified,Incontinence,No,0.01,Primary,No,Yes
+bbd,527,15,2.816,2017,29,17.0,4,0.73,459.0,71.0,13.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,Yes
+bbd,34369,31,1.401,2003,11,18.0,8,0.0,169.0,24.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,34861,51,1.508,2000,11,15.0,9,0.36,56.0,0.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.05,Primary,No,No
+bbd,44353,2,1.736,2011,10,24.0,18,1.44,105.0,95.0,2.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.05,Primary,No,No
+bbd,34151,24,2.36,1996,30,11.0,37,0.66,11.0,13.0,0.0,Other,NA,NA,NA,Incontinence,No,0.01,Primary,No,No
+bbd,31080,3,2.365,2006,7,22.0,57,2.11,102.0,24.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,34852,12,2.265,1999,27,39.0,40,1.25,115.0,17.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.01,Primary,No,Yes
+bbd,30687,51,1.508,2006,11,14.0,5,0.28,78.0,8.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.008,Secondary,No,No
+bbd,31327,1,5.157,2008,11,4.0,27,1.08,43.0,28.0,0.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.01,Primary,No,No
+bbd,66731,53,3.258,2013,11,17.0,0,0.0,355.0,38.0,1.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.01,Primary,No,No
+bbd,35585,52,3.89,2008,25,22.0,10,0.67,922.0,141.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,Yes,0.01,Primary,Yes,Yes
+bbd,644,33,2.24,2017,25,1.0,5,1.57,374.0,125.0,0.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.001,Primary,No,No
+bbd,34471,1,5.157,2004,13,13.0,25,0.44,46.0,26.0,0.0,Other,NA,NA,NA,Incontinence,No,0.01,Secondary,No,No
+bbd,34111,18,4.134,1995,25,4.0,15,0.0,94.0,49.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,34009,18,4.134,1993,25,4.0,40,0.0,88.0,48.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,654,3,2.365,2017,31,7.0,3,0.65,227.0,109.0,0.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.01,Primary,No,Yes
+bbd,44730,55,1.351,2012,19,15.0,6,0.37,22.0,13.0,0.0,RCT,electronic,Not specified,Yes,Incontinence,No,0.012,Primary,No,No
+bbd,34482,1,5.157,2004,20,33.0,30,0.88,50.0,38.0,0.0,Other,NA,NA,NA,Incontinence,No,0.001,Primary,No,No
+bbd,28694,56,0.284,2016,2,5.0,5,1.1,315.0,19.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,35856,58,2.844,2013,29,5.0,13,1.11,157.0,49.0,1.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.05,Primary,No,Yes
+bbd,6828,1,5.157,2012,29,26.0,5,0.55,125.0,23.0,1.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.015,Primary,No,Yes
+bbd,58996,57,2.393,2008,13,10.0,10,0.28,3297.0,241.0,9.0,RCT,Simple,Yes,Yes,Incontinence,Yes,0.03,Primary,Yes,Yes
+bbd,30660,15,2.816,2006,15,5.0,37,0.55,1515.0,191.0,0.0,RCT,electronic,Not specified,Not specified,Dysfunctional voiding,No,0.03,Primary,No,Yes
+phn,1718,1,5.157,2003,1,44.0,23,,,,,Other,NA,No,No,VUR,No,0.04,Primary,No,No
+phn,1966,1,5.157,2002,1,44.0,29,,,,,Other,NA,No,No,VUR,No,0.01,Primary,No,No
+phn,1542,1,5.157,2005,1,39.0,36,,,,,Other,NA,No,No,VUR,No,0.021,Primary,Yes,No
+phn,456,3,1.692,2014,3,5.0,4,,,,,Other,NA,No,No,VUR,No,0.034,Primary,No,No
+phn,726,4,4.387,2011,3,22.0,78,,,,,Other,NA,No,No,Stones,No,0.05,Primary,No,No
+phn,2145,4,4.387,1999,4,14.0,1,,,,,RCT,Not Specified,No,No,Stones,No,0.05,Primary,No,No
+phn,1088,3,1.692,2010,3,9.0,16,,,,,RCT,Not Specified,No,No,Stones,No,0.002,Primary,No,No
+phn,559,6,2.365,2013,3,13.0,11,,,,,Other,NA,No,No,Stones,No,0.015,Secondary,No,No
+phn,339,2,1.935,2015,7,12.0,11,,,,,Other,NA,No,No,UPJO,No,0.03,Primary,No,No
+phn,1089,6,2.365,2011,6,34.0,41,,,,,RCT,Simple,No,No,Stones,No,0.006,Secondary,No,No
+phn,617,2,1.935,2012,2,6.0,21,,,,,Other,NA,No,No,UPJO,No,0.004,Primary,No,No
+phn,1062,1,5.157,2010,7,24.0,13,,,,,RCT,Simple,No,No,Stones,No,0.001,Primary,No,No
+phn,904,2,1.935,2010,8,5.0,7,,,,,Other,NA,No,No,VUR,No,0.03,Secondary,No,No
+phn,624,2,1.935,2012,1,21.0,4,,,,,Other,NA,No,No,Ureterocele/duplex anomalies,No,0.01,Primary,No,No
+phn,1379,1,5.157,2007,1,32.0,37,,,,,Other,NA,No,No,UPJO,No,0.002,Primary,No,No
+phn,1047,1,5.157,2010,9,31.0,171,,,,,RCT,Simple,No,No,VUR,No,0.003,Primary,Yes,Yes
+phn,1049,1,5.157,2010,9,31.0,108,,,,,RCT,Simple,No,No,VUR,No,0.0015,Primary,Yes,Yes
+phn,5,2,1.935,2016,10,2.0,2,,,,,Other,NA,No,No,VUR,No,0.05,Primary,No,No
+phn,2374,1,5.157,1997,5,16.0,11,,,,,Other,NA,No,No,VUR,No,0.05,Primary,No,No
+phn,1905,7,3.89,2001,5,18.0,94,,,,,RCT,Blocked,Yes,Yes,VUR,Yes,0.029,Primary,No,No
+phn,1510,8,2.038,2004,2,21.0,62,,,,,Other,NA,No,No,UPJO,No,0.002,Primary,No,No
+phn,612,2,1.935,2013,2,15.0,4,,,,,Other,NA,No,No,VUR,No,0.001,Primary,Yes,No
+phn,1979,6,2.365,2003,2,25.0,17,,,,,Other,NA,No,No,VUR,No,0.004,Secondary,No,No
+phn,5889,1,5.157,1999,11,23.0,68,,,,,Other,NA,No,No,UPJO,No,0.05,Primary,No,No
+phn,1536,1,5.157,2005,11,24.0,24,,,,,Other,NA,No,No,Ureterocele/duplex anomalies,No,0.05,Primary,No,No
+phn,1175,9,79.258,2009,12,79.0,252,,,,,RCT,Stratified,Yes,Yes,UTI,Yes,0.02,Primary,Yes,Yes
+phn,5829,11,2.58,2008,14,2.0,37,,,,,Other,NA,No,No,PHN,No,0.004,Primary,No,No
+phn,1427,6,2.365,2005,15,25.0,77,,,,,RCT,Simple,No,No,Stones,No,0.027,Primary,No,No
+phn,1494,8,2.038,2006,2,43.0,64,,,,,Other,NA,No,No,UPJO,No,0.001,Primary,No,No
+phn,5637,2,1.935,2018,2,10.0,0,,,,,Other,NA,No,No,PHN,No,0.0001,Primary,No,No
+phn,1372,12,1.508,2007,16,3.0,8,,,,,Other,NA,No,No,UPJO,No,0.05,Secondary,No,No
+phn,1719,1,5.157,2003,2,34.0,19,,,,,Other,NA,No,No,VUR,No,0.01,Primary,No,No
+phn,5838,2,1.935,2008,17,4.0,35,,,,,Other,NA,No,No,UPJO,No,0.016,Primary,No,No
+phn,1235,1,5.157,2008,2,32.0,37,,,,,Other,NA,No,No,VUR,No,0.03,Primary,No,No
+phn,2355,1,5.157,1997,2,24.0,29,,,,,Other,NA,No,No,VUR,No,0.02,Primary,No,No
+phn,1107,1,5.157,2009,2,19.0,49,,,,,Other,NA,No,No,VUR,No,0.001,Secondary,No,No
+phn,2293,13,7.469,1999,18,47.0,39,,,,,Other,NA,No,No,UPJO,No,0.01,Primary,No,No
+phn,2437,1,5.157,1995,1,35.0,65,,,,,Other,NA,No,No,VUR,No,0.01,Primary,No,No
+phn,5690,14,1.07,2012,3,30.0,12,,,,,Other,NA,No,No,PHN,No,0.0001,Primary,No,No
+phn,1111,8,2.023,2009,3,15.0,17,,,,,RCT,NA,No,No,Stones,No,0.001,Secondary,No,No
+phn,1706,15,2.282,2003,17,13.0,13,,,,,RCT,NA,No,No,VUR,No,0.014,Primary,No,No
+phn,530,2,1.935,2012,3,12.0,6,,,,,RCT,NA,No,No,VUR,Yes,0.042,Primary,No,No
+phn,266,2,1.935,2016,18,6.0,0,,,,,Other,NA,No,No,VUR,No,0.00256,Primary,No,No
+phn,351,16,2.981,2015,13,8.0,7,,,,,Other,NA,No,No,UPJO,No,0.0001,Primary,No,No
+phn,496,5,2.627,2015,6,23.0,10,,,,,RCT,Blocked,Yes,Yes,VUR,Yes,0.03,Primary,Yes,Yes
+phn,1442,4,4.387,2006,14,22.0,14,,,,,Other,NA,No,No,UPJO,No,0.05,Primary,No,No
+phn,462,2,1.935,2014,2,16.0,20,,,,,Other,NA,No,No,HUN,No,0.038,Primary,No,No
+phn,1045,1,5.157,2010,9,31.0,85,,,,,RCT,NA,No,No,VUR,No,0.0002,Primary,Yes,Yes
+phn,2144,1,5.157,1999,2,37.0,73,,,,,Other,NA,No,No,Ureterocele/duplex anomalies,No,0.01,Primary,No,No
+phn,941,17,1.257,2011,19,2.0,10,,,,,Other,NA,No,No,UPJO,No,0.044,Secondary,No,No
+phn,1072,1,5.157,2010,7,22.0,14,,,,,RCT,NA,No,Yes,VUR,No,0.002,Primary,No,No
+phn,1469,5,2.627,2006,15,14.0,50,,,,,Other,NA,No,No,UTI,No,0.0001,Secondary,No,No
+phn,469,22,1.6,2014,3,5.0,1,,,,,Other,NA,No,No,VUR,No,0.05,Secondary,No,No
+phn,243,18,1.733,2016,3,4.0,7,,,,,Other,NA,No,No,VUR,No,0.007,Primary,No,No
+phn,247,18,1.733,2016,3,3.0,7,,,,,Other,NA,No,No,VUR,No,0.024,Primary,No,No
+phn,776,1,5.157,2012,20,24.0,15,,,,,RCT,NA,No,No,VUR,No,0.04,Primary,No,No
+phn,497,8,2.038,2015,6,18.0,8,,,,,RCT,Simple,No,No,Stones,No,0.02,Primary,No,No
+phn,274,2,1.935,2016,2,6.0,15,,,,,Other,NA,No,No,VUR,No,0.004,Primary,No,Yes
+phn,1702,6,2.365,2003,2,27.0,36,,,,,Other,NA,No,No,UPJO,No,0.05,Primary,No,No
+phn,52,16,2.981,2017,14,2.0,3,,,,,Other,NA,No,No,Stones,No,0.001,Primary,No,No
+phn,1273,1,5.157,2008,2,24.0,9,,,,,Other,NA,No,No,Ureterocele/duplex anomalies,No,0.05,Secondary,No,No
+phn,1572,21,6.646,2005,2,20.0,19,,,,,Other,NA,No,No,UPJO,No,0.033,Primary,No,No
+phn,3402,1,5.157,2014,1,27.0,8,,,,,RCT,Not Specified,Yes,Yes,UPJO,Yes,0.011,Primary,Yes,No
+phn,736,1,5.157,2012,2,34.0,29,,,,,Other,NA,No,No,UPJO,No,0.001,Primary,No,No
+phn,524,2,1.935,2013,6,11.0,9,,,,,Other,NA,No,No,PUV,No,0.005,Primary,No,No
+phn,1973,1,5.157,2003,6,14.0,13,,,,,RCT,NA,No,No,Stones,No,0.04,Secondary,No,No
+phn,1461,1,5.157,2006,2,29.0,18,,,,,Other,NA,No,No,VUR,No,0.01,Primary,No,No
+phn,4737,1,5.157,2004,2,29.0,12,,,,,RCT,Simple,No,Yes,VUR,Yes,0.009,Primary,No,No
+phn,1432,25,13.938,2006,17,27.0,25,,,,,Other,NA,No,No,UPJO,No,0.0072,Primary,No,No
+phn,944,12,1.508,2011,7,7.0,9,,,,,RCT,NA,No,No,Stones,Yes,0.001,Primary,No,No
+phn,449,1,5.157,2014,1,4.0,7,,,,,RCT,Simple,No,No,VUR,Yes,0.05,Primary,No,No
+phn,18,6,2.365,2016,22,6.0,2,,,,,RCT,Blocked,Yes,No,UPJO,Yes,0.017,Secondary,No,No
+phn,31,2,1.935,2017,9,2.0,1,,,,,RCT,NA,No,No,VUR,No,0.05,Primary,No,Yes
+phn,34,2,1.935,2017,9,2.0,4,,,,,RCT,NA,No,No,VUR,No,0.039,Primary,No,No
+phn,1201,5,2.627,2008,23,14.0,2,,,,,Other,NA,No,No,VUR,No,0.05,Secondary,No,No
+phn,1775,5,2.627,2004,24,7.0,94,,,,,Other,NA,No,No,UTI,No,0.0001,Primary,No,No
+phn,252,6,2.365,2016,2,8.0,2,,,,,Other,NA,No,No,VUR,No,0.01,Secondary,No,No
+phn,967,1,5.157,2011,2,10.0,8,,,,,Other,NA,No,No,Ureterocele/duplex anomalies,No,0.05,Primary,No,No
+phn,971,28,1.476,2011,17,14.0,4,,,,,Other,NA,No,No,Ureterocele/duplex anomalies,No,0.04,Primary,No,No
+phn,1286,3,1.692,2009,3,12.0,6,,,,,Other,NA,No,No,VUR,No,0.05,Primary,No,No
+phn,1328,1,5.157,2007,2,9.0,30,,,,,Other,NA,No,No,UPJO,No,0.05,Secondary,No,No
+phn,1950,28,1.476,2002,6,16.0,26,,,,,Other,NA,No,No,PUV,No,0.01,Primary,No,No
+phn,3329,29,1.85,2015,2,0.0,0,,,,,Other,NA,No,No,UPJO,No,0.01,Primary,No,No
+phn,268,2,1.935,2016,1,24.0,8,,,,,Other,NA,No,No,UPJO,No,0.01,Primary,No,No
+phn,17,6,2.365,2017,1,24.0,0,,,,,Other,NA,No,No,UPJO,No,0.01,Primary,No,No
+phn,1398,1,5.157,2008,8,9.0,224,,,,,RCT,Stratified,No,No,VUR,Yes,0.01,Primary,No,Yes
+phn,565,6,2.365,2013,22,13.0,8,,,,,Other,NA,No,No,PUV,No,0.0012,Primary,No,No
+phn,2951,2,1.935,2017,2,2.0,1,,,,,Other,NA,No,No,PHN,No,0.001,Primary,No,No
+phn,259,2,1.935,2016,3,14.0,19,,,,,Other,NA,No,No,UPJO,No,0.02,Secondary,No,No
+phn,424,2,1.935,2014,7,10.0,6,,,,,Other,NA,No,No,UPJO,No,0.001,Secondary,No,No
+phn,613,2,1.935,2013,13,15.0,14,,,,,Other,NA,No,No,VUR,No,0.001,Primary,No,No
+phn,3124,2,1.935,2017,2,23.0,4,,,,,Other,NA,No,No,UPJO,No,0.01,Primary,Yes,No
+phn,541,8,2.038,2013,26,1.0,11,,,,,Other,NA,No,No,Stones,No,0.05,Secondary,No,No
+phn,67,2,1.935,2017,2,9.0,0,,,,,Other,NA,No,No,VUR,No,0.001,Primary,Yes,No
+phn,410,8,2.038,2014,6,9.0,7,,,,,RCT,Not Specified,Yes,No,Stones,No,0.04,Secondary,No,No
+phn,2240,30,1.122,1998,12,6.0,14,,,,,Other,NA,No,No,UPJO,No,0.05,Primary,No,No
+phn,618,2,1.935,2013,6,12.0,6,,,,,Other,NA,No,No,PUV,No,0.02,Primary,No,No
+phn,968,1,5.157,2011,2,9.0,12,,,,,Other,NA,No,No,UPJO,No,0.04,Secondary,No,No
+phn,3986,1,5.157,2009,11,8.0,3,,,,,RCT,Not Specified,No,No,UPJO,No,0.02,Primary,No,No
+phn,2546,1,5.157,1993,2,54.0,105,,,,,Other,NA,No,No,Ureterocele/duplex anomalies,No,0.01,Primary,No,No
+phn,2405,6,2.365,1995,2,83.0,221,,,,,Other,NA,No,No,UPJO,No,0.05,Primary,No,No
+phn,1392,32,3.747,2008,17,12.0,48,,,,,Other,NA,No,No,UPJO,No,0.001,Secondary,No,No
+phn,2130,1,5.157,1999,1,27.0,66,,,,,Other,NA,No,No,UPJO,No,0.05,Secondary,No,No
+phn,4011,28,1.476,2010,5,19.0,5,,,,,Other,NA,No,No,UPJO,No,0.0001,Secondary,No,No
+phn,1980,1,5.157,2003,27,22.0,52,,,,,RCT,NA,No,No,Stones,No,0.01,Secondary,No,No
+phn,708,31,2.038,2012,22,3.0,20,,,,,RCT,Not Specified,Yes,Yes,Stones,No,0.0001,Primary,No,No
+phn,2078,6,2.365,2001,2,57.0,62,,,,,Other,NA,No,No,Stones,No,0.004,Primary,No,No
+phn,1473,34,1.941,2006,22,5.0,13,,,,,RCT,NA,No,No,Stones,No,0.05,Secondary,No,No
+phn,3983,17,1.257,2009,6,8.0,21,,,,,Other,NA,No,No,Stones,No,0.001,Primary,No,No
+phn,2745,1,5.157,1986,4,11.0,16,,,,,RCT,NA,No,No,Stones,No,0.01,Primary,No,No
+phn,3397,28,1.476,2014,20,16.0,2,,,,,Other,NA,No,No,UPJO,No,0.01,Primary,No,No
+phn,369,8,2.038,2015,2,5.0,11,,,,,Other,NA,No,No,Ureterocele/duplex anomalies,No,0.03,Primary,No,No
+phn,20,6,2.365,2017,27,5.0,3,,,,,Other,NA,No,No,UPJO,No,0.01,Secondary,No,Yes
+phn,929,1,5.159,2011,2,34.0,91,,,,,Other,NA,No,No,VUR,No,0.01,Secondary,No,No
+phn,5604,36,0.902,2013,7,6.0,2,,,,,Other,NA,No,No,VUR,No,0.01,Primary,No,No
+phn,720,37,1.684,2012,9,25.0,3,,,,,RCT,NA,No,No,VUR,No,0.001,Primary,No,Yes
+phn,473,38,1.298,2014,6,11.0,2,,,,,RCT,NA,No,No,UPJO,No,0.02,Secondary,No,No
+phn,432,6,2.365,2014,2,29.0,10,,,,,Other,NA,No,No,UPJO,No,0.01,Secondary,No,No
+phn,311,25,13.938,2015,2,18.0,47,,,,,RCT,Stratified,Yes,Yes,Stones,Yes,0.01,Primary,No,Yes
+phn,1133,2,1.935,2009,8,22.0,36,,,,,Other,NA,No,No,UPJO,No,0.05,Secondary,No,No
+phn,615,2,1.935,2013,14,4.0,15,,,,,Other,NA,No,No,UPJO,No,0.01,Secondary,No,No
+phn,1340,39,3.827,2007,2,14.0,38,,,,,RCT,Not Specified,Yes,Not specified,VUR,Yes,0.02,Primary,No,No
+phn,1037,6,2.365,2010,2,11.0,18,,,,,Other,NA,No,No,UPJO,No,0.039,Primary,No,No
+phn,2350,1,5.159,1997,29,11.0,18,,,,,Other,NA,No,No,VUR,No,0.01,Primary,No,No
+phn,1370,6,2.365,2007,2,8.0,18,,,,,Other,NA,No,No,VUR,No,0.01,Primary,No,No
+phn,943,16,2.981,2011,3,4.0,19,,,,,RCT,NA,No,No,Stones,No,0.01,Secondary,No,No
+phn,519,23,2.038,2013,5,11.0,14,,,,,Other,NA,No,No,Stones,No,0.001,Secondary,No,No
+phn,511,6,2.365,2013,10,10.0,12,,,,,Other,NA,No,No,VUR,No,0.023,Secondary,No,No
+phn,5636,24,2.779,2018,11,6.0,0,,,,,Other,NA,No,No,PHN,No,0.014,Primary,No,No
+neg,1027,1,2.365,2010,1,21.0,17,0.9,45.0,18.0,0.0,Other,NA,No,No,pyeloplasty,No,0.74,Primary,No,No
+neg,2874,3,27.604,1983,4,33.0,51,,16.0,5.0,0.0,Other,NA,No,No,VUR,No,1.0,Primary,No,No
+neg,2762,3,27.604,1987,4,33.0,230,,38.0,,0.0,Other,NA,No,No,VUR,No,0.36,Primary,No,No
+neg,1914,4,1.476,2002,3,15.0,20,0.42,7.0,10.0,0.0,Other,NA,No,No,pyeloplasty,No,1.0,Primary,No,No
+neg,402,5,1.736,2013,5,16.0,19,2.06,18.0,49.0,2.0,Other,NA,No,No,pyeloplasty,No,1.0,Primary,No,No
+neg,999,1,2.365,2014,5,16.0,11,1.1,42.0,15.0,0.0,Other,NA,No,No,robotics,No,1.0,Secondary,No,No
+neg,998,6,5.157,1999,8,29.0,52,0.96,48.0,14.0,0.0,Other,NA,No,No,VUR,No,0.152,Primary,No,No
+neg,902,5,1.736,2011,9,8.0,2,,15.0,28.0,0.0,Other,NA,No,No,VUR,No,0.34,Primary,No,No
+neg,2495,6,5.157,1996,5,36.0,23,1.16,2.0,,0.0,Other,NA,No,No,pyeloplasty,No,1.0,Primary,Yes,No
+neg,997,6,5.157,2005,1,28.0,110,5.13,8.0,19.0,0.0,Other,NA,No,No,pyeloplasty,No,1.0,Primary,No,No
+neg,996,7,4.524,2001,10,16.0,77,1.73,32.0,13.0,0.0,Other,NA,No,No,nephrectomy,No,0.156,Secondary,No,No
+neg,2674,6,5.157,1991,5,16.0,36,,0.0,1.0,0.0,Other,NA,No,No,VUR,No,0.67,Secondary,No,No
+neg,1788,6,5.157,2004,5,20.0,32,0.88,10.0,15.0,0.0,Other,NA,No,No,Megaureter,No,0.35,Primary,No,No
+neg,2373,6,5.157,1997,11,26.0,31,4.16,1.0,2.0,0.0,Other,NA,No,No,VUR,No,0.35,Primary,No,No
+neg,925,6,5.157,2011,6,24.0,11,0.12,62.0,18.0,0.0,Other,NA,No,No,pyeloplasty,No,0.06,Primary,No,No
+neg,234,8,1.638,2016,12,10.0,2,0.28,5.0,2.0,0.0,Other,NA,No,No,VUR,No,1.0,Primary,No,No
+neg,324,9,1.268,2015,5,21.0,9,1.31,7.0,25.0,0.0,Other,NA,No,No,pyeloplasty,No,0.09,Primary,No,No
+neg,4326,6,5.157,2008,5,6.0,8,0.68,41.0,13.0,0.0,Other,NA,No,No,pyeloplasty,No,0.06,Primary,No,No
+neg,1261,5,1.736,2008,5,39.0,17,0.93,18.0,5.0,0.0,Other,NA,No,No,pyeloplasty,No,0.06,Primary,No,No
+neg,1954,1,2.365,2002,13,34.0,77,2.43,25.0,10.0,0.0,Other,Not Specified,No,No,VUR,No,0.0536,Primary,Yes,No
+neg,1452,6,5.157,2006,8,9.0,71,3.53,10.0,23.0,0.0,Other,NA,No,No,nephrectomy,No,1.0,Primary,No,No
+neg,434,5,1.736,2014,5,20.0,30,2.38,30.0,22.0,0.0,Other,NA,No,No,VUR,No,0.083,Primary,No,No
+neg,110,12,2.776,2017,12,12.0,10,1.89,4382.0,60.0,0.0,Other,NA,No,No,pyeloplasty,No,0.06,Primary,No,No
+neg,1156,1,2.365,2009,14,26.0,18,0.83,164.0,12.0,0.0,Other,NA,No,No,pyeloplasty,No,0.4,Primary,No,Yes
+neg,2213,6,5.157,1998,5,24.0,18,0.95,9.0,0.0,0.0,Other,NA,No,No,pyeloplasty,No,1.0,Secondary,No,No
+neg,1433,1,2.365,2006,5,21.0,120,4.23,37.0,29.0,0.0,Other,NA,No,No,pyeloplasty,No,1.0,Primary,No,No
+neg,354,5,1.736,2015,7,6.0,11,1.1,8.0,24.0,0.0,RCT,Not Specified,Yes,No,pyeloplasty,Yes,1.0,Primary,No,No
+neg,102,13,12.004,2017,5,12.0,15,4.65,127.0,51.0,1.0,Other,NA,No,No,VUR,No,0.92,Primary,Yes,No
+neg,2699,1,2.365,1992,5,29.0,7,,1.0,0.0,0.0,Other,NA,No,No,VUR,No,0.06,Primary,No,No
+neg,4702,14,5.217,1982,16,4.0,4,,3.0,0.0,0.0,RCT,Not Specified,Yes,Yes,BBD,No,1.0,Primary,No,No
+neg,31766,7,4.524,2008,17,10.0,7,0.14,913.0,29.0,0.0,Other,NA,No,No,BBD,No,0.06,Primary,No,No
+neg,21067,15,4.134,1982,10,4.0,21,,130.0,31.0,0.0,Other,NA,No,No,BBD,No,0.06,Primary,No,No
+neg,35728,5,1.736,2011,18,21.0,15,1.2,198.0,62.0,0.0,RCT,Not Specified,Yes,Yes,BBD,Yes,0.06,Primary,No,Yes
+neg,35053,5,1.736,2014,9,22.0,24,2.38,45.0,28.0,0.0,RCT,Not Specified,Yes,Yes,BBD,No,0.89,Primary,No,No
+neg,35708,6,5.157,2010,5,8.0,0,,673.0,30.0,0.0,Other,NA,No,No,BBD,No,0.061,Primary,No,No
+neg,31032,6,5.157,2006,19,19.0,40,0.99,33.0,51.0,0.0,RCT,Stated,Yes,Yes,BBD,No,0.06,Primary,No,No
+neg,35826,5,1.736,2012,19,2.0,16,0.48,52.0,43.0,0.0,RCT,Stated,Yes,Yes,BBD,Yes,1.0,Primary,Yes,Yes
+neg,30393,1,2.365,2005,6,28.0,16,0.29,42.0,2.0,0.0,Other,NA,No,No,BBD,No,0.082,Primary,No,No
+neg,486,16,1.733,2018,3,5.0,2,1.26,19.0,24.0,0.0,RCT,Not Specified,Yes,Yes,BBD,No,0.407,Primary,No,No
+neg,34249,11,17.581,2001,13,34.0,53,2.25,36.0,31.0,1.0,RCT,Not Specified,Yes,Yes,BBD,No,0.06,Primary,No,No
+neg,27845,17,1.596,2015,3,9.0,4,0.23,0.0,15.0,0.0,Other,NA,No,No,BBD,No,1.0,Primary,No,No
+neg,60645,18,0.029,2010,2,3.0,0,,0.0,0.0,0.0,RCT,Stated,Yes,Yes,BBD,No,0.08,Primary,No,No
+neg,342,6,5.157,2018,6,25.0,2,0.96,36.0,8.0,1.0,Other,NA,No,No,BBD,No,1.0,Primary,No,No
+neg,842,5,1.736,2016,20,17.0,1,0.17,34.0,61.0,0.0,Other,NA,No,No,BBD,No,0.88,Primary,No,No
+neg,34449,19,1.351,2003,3,,15,0.08,36.0,22.0,0.0,RCT,Not Specified,Yes,Yes,BBD,No,1.0,Secondary,No,No
