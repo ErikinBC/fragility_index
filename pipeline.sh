@@ -14,6 +14,9 @@ python fi_calc.py
 # output: df_res.csv
 
 # --- (3) Calculate summary statistics and figures --- #
+echo "Running (3)"
+#python fi_results.py
+
 
 
 

@@ -5,32 +5,44 @@ SCRIPT TO CALCULATE EMPIRICAL RESULTS FOR FRAGILITY INDEX
 import os
 import pandas as pd
 import numpy as np
-import scipy.stats as stats
-from statsmodels.stats import multitest
+# import scipy.stats as stats
+# from statsmodels.stats import multitest
 
-"""### Calculate for Negative"""
+################################################
+# ----------- (1) LOAD IN THE DATA ----------- #
 
-holder_neg = []
-for ii in df_neg_FI.index:
-  n1_tot, n2_tot = df_neg_FI.loc[ii,'num1'], df_neg_FI.loc[ii,'num2']
-  n1_out1, n2_out1 = df_neg_FI.loc[ii,'num_out1'], df_neg_FI.loc[ii,'num_out2']
-  n1_out2, n2_out2 = n1_tot - n1_out1, n2_tot - n2_out1
-  # Contigency table
-  tbl_ii = [[n1_out1, n1_out2],[n2_out1, n2_out2]]
-  pval_ii = stats.fisher_exact(tbl_ii)[1]
-  di_ii = fi_func_neg(n1A=df_neg_FI.loc[ii,'num_out1'],n1=df_neg_FI.loc[ii,'num1'],
-        n2A=df_neg_FI.loc[ii,'num_out2'],n2=df_neg_FI.loc[ii,'num2'])
-  di_ii['ID'] = df_neg_FI.loc[ii,'ID']
-  holder_neg.append(di_ii)
-df_neg_results = pd.DataFrame(holder_neg)
+tmp_FI = pd.read_csv(os.path.join('processed','df_FI.csv'))
+tmp_inf = pd.read_csv(os.path.join('processed','df_inf.csv'))
+tmp_res = pd.read_csv(os.path.join('processed','df_res.csv'))
+df = tmp_inf.merge(tmp_FI,on=['tt','ID']).merge(tmp_res,on=['tt','ID'])
+del tmp_FI, tmp_inf, tmp_res
 
-df_neg_merge = df_neg_results.merge(pd.DataFrame({'ID':df_neg_FI.ID, 'n_tot':df_neg_FI.num1 + df_neg_FI.num2}),on='ID')
-df_neg_merge['FQ'] = df_neg_merge.FI / df_neg_merge.n_tot
+# Calculate fragility quotient
+df['FQ'] = df.FI / (df.num1 + df.num2)
+df['FQ2'] = df.FI2 / (df.num1 + df.num2)
 
-print('---- FRAGILITY INDEX ---- ')
-print(df_neg_merge.FI.describe())
-print('---- FRAGILITY QUOTIENT ----')
-print(df_neg_merge.FQ.describe())
+########################################################
+# ----------- (2) PRINT SUMMARY STATISTICS ----------- #
+
+dat_sumstats = df[['tt','ID','FI','FQ']].melt(['tt','ID']).groupby(['tt','variable']).value
+# Mean, median, IQR, SE
+dat_sumstats = dat_sumstats.apply(lambda x: pd.Series({'mean':x.mean(),'median':x.median(),
+                  'se':x.std(),'l25':x.quantile(0.25),'l75':x.quantile(0.75)})).reset_index()
+dat_sumstats = dat_sumstats.sort_values(['tt','variable']).pivot_table('value',['tt','variable'],'level_2').reset_index()
+cn_ord = ['tt','variable','mean','se','median','l25','l75']
+dat_sumstats = dat_sumstats[cn_ord]
+dat_sumstats.columns.name = ''
+np.round(dat_sumstats,1)
+# CHECK LINES UP WITH PAPER!
+
+###############################################
+# ----------- (3) NUMERIC FACTORS ----------- #
+
+
+
+###################################################
+# ----------- (4) CATEGORICAL FACTORS ----------- #
+
 
 # stats.spearmanr
 cn_neg_num = ['IF','year','h_index','citation','weighted','Plum Usage']

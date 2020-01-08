@@ -37,7 +37,8 @@ for ii, rr in df_FI.iterrows():
     else:
         pval_FI, pval_chi = stats.fisher_exact(tab)[1], stats.chi2_contingency(tab)[1]
     # ---- Insignificant results ---- #
-    if pval_FI > 0.05: # reverse fragility
+    if rr['tt'] == 'neg': # reverse fragility
+        fi.stopifnot(pval_FI > 0.05)
         tmp_fi = fi.fi_func_neg(n1a, n1, n2a, n2)['FI']
         tmp_fi2 = tmp_fi
     else: # normal fragility
