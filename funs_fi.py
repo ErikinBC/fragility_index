@@ -75,6 +75,28 @@ def fi_func2(n1A, n1, n2A, n2):
             'pv_bl':bl_pval, 'pv_FI':fi_pval}
   return(di_ret)
 
+def fi_func_yates(n1A, n1, n2A, n2):
+  n1B = n1 - n1A
+  n2B = n2 - n2A
+  stopifnot((n1B >= 0) & (n2B >= 0),'A exceeds A+B')
+  prop1, prop2 = n1A / (n1A + n1B), n2A / (n2A + n2B)
+  bl_pval = stats.chi2_contingency([[n1A, n1B], [n2A, n2B]],correction=False)[1]
+  fi, fi_pval, ii = 0, 0, 0 # Initialize
+  if bl_pval > 0.05: # Check that baseline result is actually significant
+    di_ret = {'FI':fi,'group':'NA','pv_bl':bl_pval,'pv_FI':bl_pval}
+    return(di_ret)
+  while fi_pval < 0.05:
+    ii += 1
+    if prop1 < prop2:
+      n1A += 1
+      n1B += -1
+    else:
+      n2A += 1
+      n2B += -1
+    fi_pval = stats.chi2_contingency([[n1A, n1B], [n2A, n2B]],correction=False)[1]
+  di_ret = {'FI':ii, 'group':np.where(prop1<prop2,['A'],['B'])[0],
+            'pv_bl':bl_pval, 'pv_FI':fi_pval}
+  return(di_ret)
 
 
 # --- EQUIVALENT FUNCTION FOR REVERSE COUNTER --- #

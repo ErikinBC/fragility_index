@@ -37,7 +37,7 @@ bbd,31717,15,2.816,2008,3,22.0,26,1.13,830.0,44.0,0.0,RCT,Not Stated,No,No,Noctu
 bbd,35588,21,1.409,2009,10,7.0,6,0.5,127.0,12.0,0.0,RCT,Blocked,Yes,Yes,Nocturnal Enuresis,Yes,0.033,Primary,Yes,Yes
 bbd,34443,1,5.157,2003,10,2.0,50,1.33,24.0,40.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,Yes,Yes
 bbd,35779,15,2.816,2011,3,16.0,17,0.82,2409.0,78.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.04,Primary,No,No
-bbd,35089,1,5.157,2014,11,11.0,18,1.64,85.0,56.0,3.0,RCT,electronic,Yes,Yes,Nocturnal Enuresis,Yes,35747.0,Primary,Yes,No
+bbd,35089,1,5.157,2014,11,11.0,18,1.64,85.0,56.0,3.0,RCT,electronic,Yes,Yes,Nocturnal Enuresis,Yes,0.001,Primary,Yes,No
 bbd,60784,28,1.163,2009,2,14.0,9,0.67,0.0,0.0,0.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.001,Primary,No,No
 bbd,43750,1,5.157,2010,17,13.0,22,0.51,91.0,50.0,2.0,RCT,Not Stated,Not specified,Not specified,Incontinence,Yes,0.001,Primary,No,Yes
 bbd,34906,29,13.994,2000,21,9.0,26,1.42,13.0,10.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.007,Secondary,No,No

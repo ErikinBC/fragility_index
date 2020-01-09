@@ -33,9 +33,11 @@ for ii, rr in df_FI.iterrows():
     print('Study %i of %i (n=%i)' % (ii+1, df_FI.shape[0], n1+n2))
     # ---- Baseline significance ---- #
     if (n1a==0) & (n2a==0):
-        pval_FI, pval_chi = 1, 1
+        pval_FI, pval_chi, pval_chi2 = 1, 1, 1
     else:
-        pval_FI, pval_chi = stats.fisher_exact(tab)[1], stats.chi2_contingency(tab)[1]
+        pval_FI, pval_chi, pval_chi2 = stats.fisher_exact(tab)[1], \
+                            stats.chi2_contingency(tab,correction=True)[1], \
+                            stats.chi2_contingency(tab,correction=False)[1]
     # ---- Insignificant results ---- #
     if rr['tt'] == 'neg': # reverse fragility
         fi.stopifnot(pval_FI > 0.05)
@@ -50,7 +52,7 @@ for ii, rr in df_FI.iterrows():
             tmp_fi2 = fi.fi_func2(n1a,n1,n2a,n2)['FI']
     # Save results    
     tmp = rr[0:2].append(pd.Series({'pval_FI': pval_FI, 'pval_chi':pval_chi,
-                     'FI':tmp_fi,'FI2':tmp_fi2}))    
+                     'pval_chi2':pval_chi2,'FI':tmp_fi,'FI2':tmp_fi2}))
     holder.append(tmp)
 
 # Combine
