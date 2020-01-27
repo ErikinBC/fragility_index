@@ -25,6 +25,8 @@ del tmp_FI, tmp_inf, tmp_res
 df['FQ'] = df.FI / (df.num1 + df.num2)
 df['FQ2'] = df.FI2 / (df.num1 + df.num2)
 
+
+
 ########################################################
 # ----------- (2) PRINT SUMMARY STATISTICS ----------- #
 
@@ -51,12 +53,29 @@ dat_study_design = df[['tt','study_design']].groupby(['tt']).apply(lambda x: x['
 dat_study_design.columns.name = ''
 print(np.round(dat_study_design,2))
 
-# (2) Plum-X captures for RCTs vs non-RCTs
+# (3) Plum-X captures for RCTs vs non-RCTs
 plum2_rct = df[(df.tt == 'bbd') & (df.study_design=='RCT')].plum2
 plum2_nrct = b=df[(df.tt == 'bbd') & ~(df.study_design=='RCT')].plum2
 pval_plumx_rct = stats.ttest_ind(a=plum2_rct,b=plum2_nrct,equal_var=True).pvalue
 print('Two-sided p-value: %0.1f%%\nRCT: mean (%0.0f), sd (%0.0f)\nnRCT: mean(%0.0f), sd(%0.0f)' %
       (pval_plumx_rct*100,plum2_rct.mean(),plum2_rct.std(),plum2_nrct.mean(),plum2_nrct.std()))
+
+# (4) Alternative FI
+df_fi = df[df.tt.isin(['bbd','phn'])].reset_index(drop=True)
+df_fi['FI_max'] = df_fi[['FI','FI2']].max(axis=1)
+df_fi['FQ_max'] = df_fi.FI_max / (df_fi.num1 + df_fi.num2)
+df_fi.insert(0,'mm','all')
+df_fi2 = df_fi[df_fi.FI > 0].drop(columns='mm').reset_index(drop=True)
+df_fi2.insert(0,'mm','FI>0')
+df_fi_long = pd.concat([df_fi, df_fi2]).reset_index(drop=True).melt(
+    id_vars=['mm','tt','study_design'],value_vars=['FI','FQ','FI_max','FQ_max'])
+df_mandy = df_fi_long.groupby(['mm','tt','study_design','variable']).describe().reset_index()
+df_mandy.columns = pd.Series([x[0]+'_'+x[1] for x in df_mandy.columns]).str.replace('_$|value_','')
+df_mandy = df_mandy.drop(columns=['std','25%','75%','count','min']).rename(columns={'50%':'median'})
+df_mandy = df_mandy.sort_values(['study_design','mm','tt','variable'],ascending=False).reset_index(drop=True)
+df_mandy.to_csv(os.path.join(dir_output,'df_mandy.csv'),index=False)
+print(np.round(df_mandy,1))
+
 
 ###############################################################################
 # ----------- (3) STATISTICAL TESTING FOR NUMERIC AND CATEGORICAL ----------- #
@@ -122,9 +141,48 @@ print('Actual: FI %0.3f (%0.3f), FQ %0.3f (%0.3f)\nReported: FI %0.3f (%0.3f), F
        rho_FI_rep.correlation, rho_FI_rep.pvalue,rho_FQ_rep.correlation, rho_FQ_rep.pvalue))
 
 
+print('---------- (4) CHECK TABLE 2 ------------')
+
+from support_fi import di_geo_bbd
+
+# Should Russia/Israel currently part of Asia
+di_region = {'Turkey':'Asia','Iran':'Asia','USA':'NAmerica','Brazil':'SAmerica',
+ 'Chile':'SAmerica','China':'Asia','Netherlands':'Europe','Italy':'Europe',
+ 'Belgium':'Europe','India':'Asia','Egypt':'Africa','Denmark':'Europe',
+ 'Taiwan':'Asia','Greece':'Europe','Russia':'Asia','Hungary':'Europe',
+ 'France':'Europe','England':'Europe','Germany':'Europe','Sweden':'Europe',
+ 'Australia':'Austalia','Israel':'Asia','Iraq':'Asia','Finland':'Europe',
+ 'Portugal':'Europe','Korea':'Asia','Canada':'NAmerica','Japan':'Asia','Serbia':'Europe',
+ 'Poland':'Europe','Austria':'Europe','Saudi Arabia':'Asia','Slovenia':'Europe',
+ 'Kuwait':'Asia','Norway':'Europe','Romania':'Europe','Switzerland':'Europe'}
+print(df_bbd.geo.map(di_geo_bbd).map(di_region).value_counts().reset_index())
+df_bbd['region'] = df_bbd.geo.map(di_geo_bbd).map(di_region).to_list()
+
+df_region = df_bbd.groupby('region').IF.apply(lambda x: pd.Series({'med':x.median(),
+        'l25':x.quantile(0.25),'l75':x.quantile(0.75)})).reset_index().round(2)
+df_region = df_region.pivot('region','level_1','IF').reset_index()
+tmp = df_region.med.astype(str) + '  (' + df_region.l25.astype(str)+'-'+df_region.l75.astype(str) + ')'
+print(pd.DataFrame({'region':df_region.region, 'val':tmp}))
 
 
+uregion = df_bbd.region.unique()
+# Kruskal wallis all way!
+IF_region = [df_bbd.IF[df_bbd.region == rr].to_list() for rr in uregion]
+print(stats.kruskal(*IF_region))
 
+# Test the h_index
+print(stats.kruskal(*[df_bbd.h_index[df_bbd.region == rr].to_list() for rr in uregion])[1] * 7)
+
+pstore = []
+for rr in uregion:
+    pstore.append(stats.kruskal(df_bbd.IF[df_bbd.region == rr].to_list(),
+                            df_bbd.IF[~(df_bbd.region == rr)].to_list())[1])
+print(pd.DataFrame({'region':uregion,
+              'sig':multitest.multipletests(pstore, alpha=0.05, method='bonferroni')[0]}))
+
+# Run t-test to compare FI between regions
+stats.ttest_ind(a=df_bbd.FI[df_bbd.region=='Europe'].to_list(),
+                b=df_bbd.FI[df_bbd.region=='Africa'].to_list(),equal_var=False)
 
 
 
