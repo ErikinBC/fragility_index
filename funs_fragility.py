@@ -1,20 +1,10 @@
-# -*- coding: utf-8 -*-
-"""
-SCRIPT THAT CONTAINS THE FRAGILITY INDEX FUNCTIONS
-"""
-
-import sys
 import numpy as np
 import scipy.stats as stats
-
-def stopifnot(cond,msg='error! condition is not met'):
-    if not cond:
-        sys.exit(msg)
+from support_funs import stopifnot
 
 ###############################################################################
 # ------------------------ FRGARILITY INDEX FUNCTIONS ----------------------- # 
 ###############################################################################
-
 
 # Function to calculate the fragility index
 #      n1A : Number of patients in group1 with primary outcome
@@ -37,19 +27,20 @@ def fi_func(n1A, n1, n2A, n2):
   fi, fi_pval, ii = 0, 0, 0 # Initialize
   if bl_pval > 0.05: # Check that baseline result is actually significant
     di_ret = {'FI':fi,'group':'NA','pv_bl':bl_pval,'pv_FI':bl_pval}
-    return(di_ret)
-  while fi_pval < 0.05:
-    ii += 1
-    if prop1 < prop2:
-      n1A += 1
-      n1B += -1
-    else:
-      n2A += 1
-      n2B += -1
-    fi_pval = stats.fisher_exact([[n1A, n1B], [n2A, n2B]])[1]      
-  di_ret = {'FI':ii, 'group':np.where(prop1<prop2,['A'],['B'])[0],
-            'pv_bl':bl_pval, 'pv_FI':fi_pval}
-  return(di_ret)
+  else:
+    while fi_pval < 0.05:
+      ii += 1
+      if prop1 < prop2:
+        n1A += 1
+        n1B += -1
+      else:
+        n2A += 1
+        n2B += -1
+      fi_pval = stats.fisher_exact([[n1A, n1B], [n2A, n2B]])[1]      
+    di_ret = {'FI':ii, 'group':np.where(prop1<prop2,['A'],['B'])[0],
+              'pv_bl':bl_pval, 'pv_FI':fi_pval}
+  return di_ret
+
 
 def fi_func2(n1A, n1, n2A, n2):
   n1B = n1 - n1A
@@ -60,20 +51,20 @@ def fi_func2(n1A, n1, n2A, n2):
   fi, fi_pval, ii = 0, 0, 0 # Initialize
   if bl_pval > 0.05: # Check that baseline result is actually significant
     di_ret = {'FI':fi,'group':'NA','pv_bl':bl_pval,'pv_FI':bl_pval}
-    return(di_ret)
-  while fi_pval < 0.05:
-    ii += 1
-    if prop1 > prop2:
-      n1A += -1
-      n1B += +1
-    else:
-      n2A += -1
-      n2B += +1
-    tab = [[n1A, n1B], [n2A, n2B]]
-    fi_pval = stats.fisher_exact(tab)[1]      
-  di_ret = {'FI':ii, 'group':np.where(prop1<prop2,['A'],['B'])[0],
-            'pv_bl':bl_pval, 'pv_FI':fi_pval}
-  return(di_ret)
+  else:
+    while fi_pval < 0.05:
+      ii += 1
+      if prop1 > prop2:
+        n1A += -1
+        n1B += +1
+      else:
+        n2A += -1
+        n2B += +1
+      tab = [[n1A, n1B], [n2A, n2B]]
+      fi_pval = stats.fisher_exact(tab)[1]      
+    di_ret = {'FI':ii, 'group':np.where(prop1<prop2,['A'],['B'])[0],
+              'pv_bl':bl_pval, 'pv_FI':fi_pval}
+  return di_ret
 
 def fi_func_yates(n1A, n1, n2A, n2):
   n1B = n1 - n1A

@@ -1,0 +1,301 @@
+tt,ID,journal,IF,year,geo,h_index,citation,wcitation,plum1,plum2,plum3,study_design,type_random,concealment,blinding,topic,power_just,pval_rep,outcome,statistician,funding
+bbd,73233,Journal of Urology,5.157,2013,Egypt,5.0,17.0,1.04,27.0,61.0,1.0,RCT,Simple,Yes,Yes,Nocturnal Enuresis,No,0.002,Primary,No,Yes
+bbd,35727,Journal of pediatric urology,1.736,2010,Iran,9.0,5.0,0.45,82.0,42.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.01,Secondary,No,No
+bbd,34442,Journal of Urology,5.157,2003,Italy,26.0,42.0,2.59,14.0,20.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.006,Primary,No,No
+bbd,70209,Korean Journal of Urology,0.152,2013,Saudi Arabia,5.0,18.0,0.91,27.0,20.0,0.0,RCT,electronic,Yes,No,Nocturnal Enuresis,Yes,0.019,Secondary,No,No
+bbd,33903,Archives of disease in childhood,3.258,1982,Israel,2.0,31.0,0.0,9.0,1.0,0.0,RCT,Simple,Yes,No,Nocturnal Enuresis,No,0.03,Primary,No,No
+bbd,26684,Al-Kindy College Medical Journal,0.912,2016,Iraq,1.0,0.0,0.0,0.0,0.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.002,Primary,No,No
+bbd,43715,BJU international,4.524,2009,Austria,28.0,32.0,1.54,470.0,45.0,0.0,Other,NA,NA,NA,OAB,No,0.001,Secondary,No,No
+bbd,943,Lasers in medical science,1.949,2017,Egypt,4.0,1.0,0.28,153.0,49.0,7.0,RCT,Simple,Yes,No,Nocturnal Enuresis,No,0.002,Primary,No,No
+bbd,69,International Braz J Urol,1.046,2018,Turkey,6.0,3.0,1.46,307.0,9.0,0.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.01,Primary,No,No
+bbd,66637,ISRN Urology,0.387,2012,Turkey,7.0,0.0,0.0,0.0,0.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.003,Primary,No,No
+bbd,31616,Pediatrics,5.417,2008,USA,24.0,59.0,2.6,2338.0,189.0,0.0,RCT,Blocked,Yes,Yes,Nocturnal Enuresis,Yes,0.05,Primary,Yes,Yes
+bbd,31578,Saudi medical journal,0.588,2008,Iran,4.0,2.0,0.0,0.0,6.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.05,Primary,No,No
+bbd,30616,Acta Pædiatrica,2.265,2006,Belgium,17.0,44.0,1.03,943.0,103.0,0.0,Other,NA,NA,NA,Incontinence,No,0.05,Primary,No,Yes
+bbd,823,"Archivio italiano di urologia, andrologia",0.23,2016,Turkey,3.0,1.0,0.14,12.0,11.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.0009,Primary,No,No
+bbd,30695,Renal Failure,1.92,2007,Turkey,18.0,8.0,0.53,109.0,4.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.002,Primary,No,No
+bbd,34020,Amer J Clin Hypn,1.179,1991,India,1.0,47.0,0.0,178.0,21.0,1.0,RCT,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,35591,Pediatrics,5.417,2009,USA,15.0,51.0,2.34,1116.0,195.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,9830,Pediatrics,5.417,2006,USA,15.0,18.0,1.2,1495.0,129.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,30643,BJU international,4.524,2006,Brazil,17.0,8.0,0.0,310.0,50.0,0.0,Other,NA,NA,NA,Incontinence,No,0.01,Primary,No,No
+bbd,45362,Journal of Urology,5.157,2013,Brazil,17.0,21.0,1.43,100.0,162.0,3.0,Other,NA,NA,NA,OAB,No,0.02,Primary,No,No
+bbd,34126,ChildPsychol. Psychi,6.129,1995,USA,152.0,44.0,0.0,587.0,69.0,0.0,Other,NA,NA,NA,Incontinence,No,0.01,Primary,No,No
+bbd,33896,Behaviour research and therapy,4.134,1982,Australia,4.0,19.0,0.0,114.0,49.0,0.0,RCT,Not Stated,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,762,Journal of Urology,5.157,2017,Denmark,4.0,6.0,1.31,22.0,63.0,7.0,RCT,electronic,Yes,Yes,Incontinence,Yes,0.05,Primary,No,No
+bbd,34137,Acta Pædiatrica,2.265,1995,England,6.0,62.0,0.0,0.0,5.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.005,Primary,No,No
+bbd,35048,Turkish Journal of Medical Sciences,0.641,2014,Turkey,8.0,1.0,0.0,601.0,19.0,0.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.01,Primary,No,No
+bbd,65819,Australian & New Zealand Continence Journal,0.421,2009,Australia,19.0,0.0,0.0,0.0,0.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,35002,Journal of pediatric urology,1.736,2013,Greece,13.0,6.0,0.46,19.0,21.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.05,Secondary,No,No
+bbd,24838,Journal of pediatric urology,1.736,2016,Brazil,3.0,3.0,0.51,40.0,42.0,2.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,35024,Journal of Urology,5.157,2013,Brazil,7.0,19.0,0.91,51.0,93.0,1.0,RCT,electronic,Yes,No,Nocturnal Enuresis,No,0.03,Primary,No,Yes
+bbd,674,Journal of pediatric urology,1.736,2017,Brazil,7.0,3.0,0.8,33.0,75.0,10.0,RCT,electronic,Yes,Yes,OAB,No,0.03,Primary,No,No
+bbd,1302,Neurourology and Urodynamics,2.36,2019,Brazil,0.0,0.0,0.0,0.0,29.0,1.0,RCT,Simple,NA,NA,Dysfunctional voiding,No,0.483,Primary,Yes,No
+bbd,23434,The Turkish Journal of Pediatrics,0.339,2018,Turkey,6.0,0.0,0.0,0.0,0.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,58335,Iranian Journal of Medical Sciences,0.392,2008,Iran,4.0,1.0,0.0,0.0,2.0,0.0,RCT,Simple,No,No,Nocturnal Enuresis,No,0.008,Secondary,No,No
+bbd,30219,Pediatric Nephrology,2.816,2005,China,27.0,25.0,1.22,356.0,20.0,0.0,RCT,Simple,Yes,No,Nocturnal Enuresis,Yes,0.014,Primary,No,No
+bbd,31717,Pediatric Nephrology,2.816,2008,Italy,22.0,26.0,1.13,830.0,44.0,0.0,RCT,Not Stated,No,No,Nocturnal Enuresis,Yes,0.001,Primary,No,No
+bbd,35588,Clinical Pediatrics,1.409,2009,USA,7.0,6.0,0.5,127.0,12.0,0.0,RCT,Blocked,Yes,Yes,Nocturnal Enuresis,Yes,0.033,Primary,Yes,Yes
+bbd,34443,Journal of Urology,5.157,2003,USA,2.0,50.0,1.33,24.0,40.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,Yes,Yes
+bbd,35779,Pediatric Nephrology,2.816,2011,Italy,16.0,17.0,0.82,2409.0,78.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.04,Primary,No,No
+bbd,35089,Journal of Urology,5.157,2014,Turkey,11.0,18.0,1.64,85.0,56.0,3.0,RCT,electronic,Yes,Yes,Nocturnal Enuresis,Yes,0.001,Primary,Yes,No
+bbd,60784,INDIAN PEDIATRICS,1.163,2009,Iran,14.0,9.0,0.67,0.0,0.0,0.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.001,Primary,No,No
+bbd,43750,Journal of Urology,5.157,2010,Denmark,13.0,22.0,0.51,91.0,50.0,2.0,RCT,Not Stated,Not specified,Not specified,Incontinence,Yes,0.001,Primary,No,Yes
+bbd,34906,Eur Urol,13.994,2000,Japan,9.0,26.0,1.42,13.0,10.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.007,Secondary,No,No
+bbd,35767,Journal of Urology,5.157,2011,Belgium,44.0,20.0,0.86,98.0,52.0,0.0,Other,NA,NA,NA,Incontinence,No,0.0001,Primary,Yes,No
+bbd,26279,Journal of Urology,5.157,1993,USA,38.0,40.0,0.0,0.0,8.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,791,Eur Arch Otorhinolaryngol,1.683,2017,Turkey,4.0,2.0,0.71,62.0,13.0,2.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.007,Primary,No,No
+bbd,35747,Journal of Urology,5.157,2011,Turkey,8.0,15.0,0.86,230.0,48.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,68091,Therapeutic Advances in Urology,1.26,2017,USA,12.0,3.0,0.27,31.0,19.0,1.0,Other,NA,NA,NA,rUTI,No,0.0001,Primary,No,No
+bbd,30945,Urology,2.365,2007,Turkey,9.0,16.0,0.84,181.0,11.0,0.0,RCT,NA,NA,NA,Dysfunctional voiding,No,0.04,Primary,No,No
+bbd,43635,Urology,2.365,2010,Turkey,15.0,20.0,0.64,283.0,32.0,0.0,RCT,Not Stated,Not specified,Not specified,Dysfunctional voiding,No,0.04,Primary,No,No
+bbd,69413,ISRN Urology,0.387,2013,Iran,0.0,4.0,0.0,0.0,0.0,0.0,RCT,Simple,Yes,Yes,Nocturnal Enuresis,No,0.049,Primary,No,No
+bbd,34925,Scand J Urol Nephrol,1.401,2000,Turkey,1.0,3.0,0.14,102.0,7.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,3228,Journal of pediatric urology,1.736,2018,Russia,9.0,0.0,0.0,15.0,7.0,15.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,6894,Journal of pediatric urology,1.736,2015,Russia,9.0,6.0,0.94,46.0,16.0,1.0,RCT,Simple,Not specified,Yes,Nocturnal Enuresis,No,0.04,Primary,No,No
+bbd,16898,Pediatria i Medycyna Rodzinna,0.8,2017,Poland,3.0,0.0,0.0,38.0,3.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.04,Primary,No,No
+bbd,27569,Urology,2.365,2015,Iran,24.0,13.0,1.21,189.0,139.0,0.0,RCT,Blocked,Yes,Yes,Dysfunctional voiding,Yes,0.001,Secondary,No,No
+bbd,45804,Eur J Pediatr,2.24,2014,Iran,6.0,14.0,0.9,1476.0,159.0,1.0,RCT,Blocked,Yes,Yes,Dysfunctional voiding,No,0.01,Primary,No,No
+bbd,23065,Journal of Child Psychology and Psychiatry and Allied Disciplines,6.129,1990,Finland,30.0,52.0,0.0,220.0,262.0,0.0,Other,NA,NA,NA,Incontinence,No,0.004,Secondary,No,No
+bbd,34770,Medicine,2.133,1998,Israel,19.0,19.0,0.91,21.0,2.0,0.0,RCT,Not Stated,Not specified,Yes,Nocturnal Enuresis,Yes,0.012,Primary,Yes,Yes
+bbd,24930,BJU international,4.524,2015,Iran,24.0,16.0,2.29,152.0,87.0,3.0,RCT,Blocked,Yes,Not specified,voiding postponement,Yes,0.006,Primary,No,No
+bbd,35210,Pediatric Nephrology,2.816,2015,Iran,24.0,10.0,0.98,480.0,77.0,1.0,RCT,Blocked,Yes,Yes,Nocturnal Enuresis,Yes,0.01,Primary,No,No
+bbd,27398,Scand J Urol Nephrol,1.401,2015,Turkey,5.0,1.0,0.12,61.0,13.0,0.0,Other,NA,NA,NA,Incontinence,No,0.01,Primary,No,No
+bbd,35618,Journal of Urology,5.157,2009,Germany,33.0,21.0,2.05,136.0,31.0,0.0,Other,NA,NA,NA,Incontinence,No,0.05,Secondary,No,No
+bbd,43614,Journal of Urology,5.157,2010,Netherlands,5.0,11.0,0.64,92.0,28.0,0.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.0001,Primary,No,No
+bbd,40,J Ped Surgery,1.733,2018,Iran,24.0,1.0,2.87,39.0,11.0,1.0,RCT,Blocked,Yes,No,Incontinence,Yes,0.01,Primary,No,No
+bbd,44146,Journal of Urology,5.157,2010,Brazil,17.0,56.0,2.06,96.0,170.0,0.0,RCT,Simple,Yes,Yes,OAB,No,0.01,Primary,No,Yes
+bbd,578,Pediatrics international,0.731,2017,China,10.0,0.0,0.0,174.0,12.0,1.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.007,Primary,No,Yes
+bbd,17852,Pak J Med Sci,0.719,2017,China,10.0,1.0,0.0,307.0,21.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,1e-06,Primary,No,Yes
+bbd,16174,International Journal of Clinical and Experimental Medicine,1.069,2018,China,10.0,0.0,0.0,0.0,0.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.003,Primary,No,Yes
+bbd,2978,Journal of pediatric urology,1.736,2019,China,10.0,0.0,0.0,0.0,5.0,5.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.026,Secondary,No,Yes
+bbd,2332,International Braz J Urol,1.097,2019,China,10.0,0.0,0.0,0.0,6.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.002,Primary,No,Yes
+bbd,35008,Academic pediatrics,2.007,2013,USA,11.0,21.0,1.91,414.0,73.0,2.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.006,Primary,Yes,Yes
+bbd,6577,Iranian Journal of Pediatrics,0.587,2009,Iran,6.0,3.0,0.17,0.0,0.0,0.0,RCT,Not Stated,Not specified,Yes,Nocturnal Enuresis,No,0.04,Primary,No,Yes
+bbd,35838,BJU international,4.524,2012,Italy,10.0,17.0,0.69,294.0,8.0,4.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.01,Secondary,No,No
+bbd,35847,Arch Iran Med,1.2,2012,Iran,6.0,18.0,1.14,0.0,23.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,21436,CMAJ,6.8,1984,Canada,20.0,8.0,0.0,0.0,6.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.05,Primary,No,No
+bbd,48843,BJU international,4.524,1998,Sweden,34.0,21.0,1.66,138.0,20.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,27543,Journal of Urology,5.157,2015,Turkey,12.0,19.0,2.02,168.0,47.0,3.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,Yes,0.006,Primary,No,No
+bbd,35081,Pediatric Nephrology,2.816,2014,Korea,10.0,10.0,1.12,387.0,29.0,3.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.002,Primary,No,Yes
+bbd,28003,Journal of pediatric urology,1.736,2015,India,19.0,15.0,2.05,74.0,141.0,0.0,RCT,Not Stated,Not specified,Yes,OAB,No,0.001,Primary,No,No
+bbd,3246,Journal of pediatric urology,1.736,2018,Iran,11.0,1.0,0.61,32.0,13.0,6.0,RCT,Blocked,Yes,Yes,Nocturnal Enuresis,Yes,0.03,Primary,No,Yes
+bbd,31539,INDIAN PEDIATRICS,1.163,2008,India,8.0,4.0,0.0,0.0,0.0,0.0,Other,NA,NA,NA,rUTI,No,0.0006,Primary,No,No
+bbd,35791,European Neurology,1.356,2012,Brazil,9.0,6.0,0.28,110.0,25.0,1.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,59422,Scand J Urol Nephrol,1.401,2009,Italy,22.0,52.0,2.7,2851.0,364.0,0.0,RCT,Not Stated,Not specified,Not specified,rUTI,No,0.05,Primary,No,No
+bbd,34807,Urology,2.365,1999,Egypt,1.0,16.0,1.08,22.0,17.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.032,Primary,No,No
+bbd,69809,Neuropsychiatric Disease and Treatment,1.741,2013,Italy,47.0,61.0,2.38,0.0,31.0,5.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,34240,Scand J Urol Nephrol,1.401,2001,Italy,22.0,9.0,0.15,110.0,13.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.05,Primary,No,No
+bbd,24008,Developmental Medicine and Child Neurology,3.615,1991,Netherlands,3.0,18.0,0.0,22.0,4.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,19604,American journal of diseases of children,12.004,1971,USA,4.0,23.0,0.0,3.0,0.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,41142,Journal of Urology,5.157,2003,USA,31.0,54.0,2.94,6.0,16.0,0.0,Other,NA,NA,NA,Incontinence,No,0.01,Primary,No,No
+bbd,35071,Neurourology and Urodynamics,2.36,2014,Denmark,37.0,15.0,0.96,39.0,27.0,2.0,Other,NA,NA,NA,Incontinence,No,0.001,Primary,No,Yes
+bbd,34132,Journal of Urology,5.157,1995,USA,39.0,20.0,0.0,1.0,1.0,0.0,RCT,Not Stated,Not specified,Yes,Nocturnal Enuresis,No,0.002,Primary,No,Yes
+bbd,66007,Turkish J Urol,0.624,2016,Turkey,6.0,3.0,0.43,303.0,31.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Secondary,No,No
+bbd,22797,Journal of Urology,5.157,1989,Portugal,2.0,60.0,0.0,3.0,7.0,0.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.001,Primary,No,No
+bbd,1112,Urology,2.365,2016,Iran,12.0,7.0,0.87,117.0,7.0,6.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,34688,Journal of Urology,5.157,1997,USA,28.0,47.0,3.46,7.0,2.0,0.0,RCT,Not Stated,Not specified,Yes,Nocturnal Enuresis,No,0.05,Primary,No,Yes
+bbd,34187,Archives of disease in childhood,3.258,1996,England,1.0,32.0,1.59,7.0,7.0,0.0,RCT,Not Stated,Not specified,Yes,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,888,International Braz J Urol,1.046,2016,Brazil,2.0,0.0,0.0,847.0,26.0,0.0,Other,NA,NA,NA,OAB,No,0.001,Primary,No,No
+bbd,44929,Archives of disease in childhood,3.258,2013,Turkey,17.0,0.0,0.0,355.0,38.0,1.0,Other,NA,NA,NA,rUTI,No,0.001,Primary,No,No
+bbd,39623,Urology,2.365,1999,Turkey,19.0,40.0,1.29,7.0,4.0,0.0,Other,NA,NA,NA,OAB,No,0.01,Primary,No,No
+bbd,31326,Journal of Urology,5.157,2008,China,8.0,19.0,1.22,70.0,23.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,35004,Indian journal of pediatrics,1.136,2012,India,1.0,14.0,1.39,66.0,18.0,4.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Secondary,No,No
+bbd,30670,JOURNAL OF CHILD AND ADOLESCENT PSYCHOPHARMACOLOGY,2.901,2006,USA,10.0,41.0,0.54,263.0,77.0,1.0,RCT,Not Stated,Not specified,Yes,Nocturnal Enuresis,No,0.042,Primary,Yes,Yes
+bbd,30266,Journal of Urology,5.157,2005,Netherlands,31.0,39.0,1.85,3.0,24.0,0.0,RCT,Not Stated,Not specified,Not specified,Incontinence,No,0.01,Primary,No,Yes
+bbd,527,Pediatric Nephrology,2.816,2017,Taiwan,17.0,4.0,0.73,459.0,71.0,13.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,Yes
+bbd,34369,Scand J Urol Nephrol,1.401,2003,Turkey,18.0,8.0,0.0,169.0,24.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,34861,Urologia Internassi,1.508,2000,Turkey,15.0,9.0,0.36,56.0,0.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.05,Primary,No,No
+bbd,44353,Journal of pediatric urology,1.736,2011,USA,24.0,18.0,1.44,105.0,95.0,2.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.05,Primary,No,No
+bbd,34151,Neurourology and Urodynamics,2.36,1996,Slovenia,11.0,37.0,0.66,11.0,13.0,0.0,Other,NA,NA,NA,Incontinence,No,0.01,Primary,No,No
+bbd,31080,Urology,2.365,2006,Greece,22.0,57.0,2.11,102.0,24.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,34852,Acta Pædiatrica,2.265,1999,Sweden,39.0,40.0,1.25,115.0,17.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.01,Primary,No,Yes
+bbd,30687,Urologia Internassi,1.508,2006,Turkey,14.0,5.0,0.28,78.0,8.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.008,Secondary,No,No
+bbd,31327,Journal of Urology,5.157,2008,Turkey,4.0,27.0,1.08,43.0,28.0,0.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.01,Primary,No,No
+bbd,66731,archives disease in childhood,3.258,2013,Turkey,17.0,0.0,0.0,355.0,38.0,1.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.01,Primary,No,No
+bbd,35585,journal of paediatrics,3.89,2008,Netherlands,22.0,10.0,0.67,922.0,141.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,Yes,0.01,Primary,Yes,Yes
+bbd,644,Eur J Pediatr,2.24,2017,Netherlands,1.0,5.0,1.57,374.0,125.0,0.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.001,Primary,No,No
+bbd,34471,Journal of Urology,5.157,2004,Belgium,13.0,25.0,0.44,46.0,26.0,0.0,Other,NA,NA,NA,Incontinence,No,0.01,Secondary,No,No
+bbd,34111,Behaviour research and therapy,4.134,1995,Netherlands,4.0,15.0,0.0,94.0,49.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,34009,Behaviour research and therapy,4.134,1993,Netherlands,4.0,40.0,0.0,88.0,48.0,0.0,RCT,Not Stated,Not specified,Not specified,Nocturnal Enuresis,No,0.001,Primary,No,No
+bbd,654,Urology,2.365,2017,Serbia,7.0,3.0,0.65,227.0,109.0,0.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.01,Primary,No,Yes
+bbd,44730,The Journal of International Medical Research,1.351,2012,China,15.0,6.0,0.37,22.0,13.0,0.0,RCT,electronic,Not specified,Yes,Incontinence,No,0.012,Primary,No,No
+bbd,34482,Journal of Urology,5.157,2004,Germany,33.0,30.0,0.88,50.0,38.0,0.0,Other,NA,NA,NA,Incontinence,No,0.001,Primary,No,No
+bbd,28694,Jsaudi journal of kidney disease,0.284,2016,Iran,5.0,5.0,1.1,315.0,19.0,0.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.01,Primary,No,No
+bbd,35856,Journal of the Formosan Medical Association,2.844,2013,Taiwan,5.0,13.0,1.11,157.0,49.0,1.0,Other,NA,NA,NA,Nocturnal Enuresis,No,0.05,Primary,No,Yes
+bbd,6828,Journal of Urology,5.157,2012,Taiwan,26.0,5.0,0.55,125.0,23.0,1.0,Other,NA,NA,NA,Dysfunctional voiding,No,0.015,Primary,No,Yes
+bbd,58996,Journal of Developmental and Behavioral Pediatrics,2.393,2008,Belgium,10.0,10.0,0.28,3297.0,241.0,9.0,RCT,Simple,Yes,Yes,Incontinence,Yes,0.03,Primary,Yes,Yes
+bbd,30660,Pediatric Nephrology,2.816,2006,Brazil,5.0,37.0,0.55,1515.0,191.0,0.0,RCT,electronic,Not specified,Not specified,Dysfunctional voiding,No,0.03,Primary,No,Yes
+phn,1718,J Urol,5.157,2003,Canada,44.0,23.0,,,,,Other,NA,No,No,VUR,No,0.04,Primary,No,No
+phn,1966,J Urol,5.157,2002,Canada,44.0,29.0,,,,,Other,NA,No,No,VUR,No,0.01,Primary,No,No
+phn,1542,J Urol,5.157,2005,Canada,39.0,36.0,,,,,Other,NA,No,No,VUR,No,0.021,Primary,Yes,No
+phn,456,International Urology Nephrology,1.692,2014,Turkey,5.0,4.0,,,,,Other,NA,No,No,VUR,No,0.034,Primary,No,No
+phn,726,BJUI,4.387,2011,Turkey,22.0,78.0,,,,,Other,NA,No,No,Stones,No,0.05,Primary,No,No
+phn,2145,BJUI,4.387,1999,Kuwait,14.0,1.0,,,,,RCT,Not Specified,No,No,Stones,No,0.05,Primary,No,No
+phn,1088,International Urology Nephrology,1.692,2010,Turkey,9.0,16.0,,,,,RCT,Not Specified,No,No,Stones,No,0.002,Primary,No,No
+phn,559,Urology,2.365,2013,Turkey,13.0,11.0,,,,,Other,NA,No,No,Stones,No,0.015,Secondary,No,No
+phn,339,J Ped Urol,1.935,2015,Iran,12.0,11.0,,,,,Other,NA,No,No,UPJO,No,0.03,Primary,No,No
+phn,1089,Urology,2.365,2011,India,34.0,41.0,,,,,RCT,Simple,No,No,Stones,No,0.006,Secondary,No,No
+phn,617,J Ped Urol,1.935,2012,USA,6.0,21.0,,,,,Other,NA,No,No,UPJO,No,0.004,Primary,No,No
+phn,1062,J Urol,5.157,2010,Iran,24.0,13.0,,,,,RCT,Simple,No,No,Stones,No,0.001,Primary,No,No
+phn,904,J Ped Urol,1.935,2010,France,5.0,7.0,,,,,Other,NA,No,No,VUR,No,0.03,Secondary,No,No
+phn,624,J Ped Urol,1.935,2012,Canada,21.0,4.0,,,,,Other,NA,No,No,Ureterocele/duplex anomalies,No,0.01,Primary,No,No
+phn,1379,J Urol,5.157,2007,Canada,32.0,37.0,,,,,Other,NA,No,No,UPJO,No,0.002,Primary,No,No
+phn,1047,J Urol,5.157,2010,Sweden,31.0,171.0,,,,,RCT,Simple,No,No,VUR,No,0.003,Primary,Yes,Yes
+phn,1049,J Urol,5.157,2010,Sweden,31.0,108.0,,,,,RCT,Simple,No,No,VUR,No,0.0015,Primary,Yes,Yes
+phn,5,J Ped Urol,1.935,2016,Korea,2.0,2.0,,,,,Other,NA,No,No,VUR,No,0.05,Primary,No,No
+phn,2374,J Urol,5.157,1997,Italy,16.0,11.0,,,,,Other,NA,No,No,VUR,No,0.05,Primary,No,No
+phn,1905,Journal of pediatrics,3.89,2001,Italy,18.0,94.0,,,,,RCT,Blocked,Yes,Yes,VUR,Yes,0.029,Primary,No,No
+phn,1510,Journal of endourology,2.038,2004,USA,21.0,62.0,,,,,Other,NA,No,No,UPJO,No,0.002,Primary,No,No
+phn,612,J Ped Urol,1.935,2013,USA,15.0,4.0,,,,,Other,NA,No,No,VUR,No,0.001,Primary,Yes,No
+phn,1979,Urology,2.365,2003,USA,25.0,17.0,,,,,Other,NA,No,No,VUR,No,0.004,Secondary,No,No
+phn,5889,J Urol,5.157,1999,Israel,23.0,68.0,,,,,Other,NA,No,No,UPJO,No,0.05,Primary,No,No
+phn,1536,J Urol,5.157,2005,Israel,24.0,24.0,,,,,Other,NA,No,No,Ureterocele/duplex anomalies,No,0.05,Primary,No,No
+phn,1175,NEJM,79.258,2009,Australia,79.0,252.0,,,,,RCT,Stratified,Yes,Yes,UTI,Yes,0.02,Primary,Yes,Yes
+phn,5829,Acta Pediatricia,2.58,2008,Netherlands,2.0,37.0,,,,,Other,NA,No,No,PHN,No,0.004,Primary,No,No
+phn,1427,Urology,2.365,2005,Greece,25.0,77.0,,,,,RCT,Simple,No,No,Stones,No,0.027,Primary,No,No
+phn,1494,Journal of endourology,2.038,2006,USA,43.0,64.0,,,,,Other,NA,No,No,UPJO,No,0.001,Primary,No,No
+phn,5637,J Ped Urol,1.935,2018,USA,10.0,0.0,,,,,Other,NA,No,No,PHN,No,0.0001,Primary,No,No
+phn,1372,Urologia Internationalis,1.508,2007,Switzerland,3.0,8.0,,,,,Other,NA,No,No,UPJO,No,0.05,Secondary,No,No
+phn,1719,J Urol,5.157,2003,USA,34.0,19.0,,,,,Other,NA,No,No,VUR,No,0.01,Primary,No,No
+phn,5838,J Ped Urol,1.935,2008,England,4.0,35.0,,,,,Other,NA,No,No,UPJO,No,0.016,Primary,No,No
+phn,1235,J Urol,5.157,2008,USA,32.0,37.0,,,,,Other,NA,No,No,VUR,No,0.03,Primary,No,No
+phn,2355,J Urol,5.157,1997,USA,24.0,29.0,,,,,Other,NA,No,No,VUR,No,0.02,Primary,No,No
+phn,1107,J Urol,5.157,2009,USA,19.0,49.0,,,,,Other,NA,No,No,VUR,No,0.001,Secondary,No,No
+phn,2293,Radiology,7.469,1999,Austria,47.0,39.0,,,,,Other,NA,No,No,UPJO,No,0.01,Primary,No,No
+phn,2437,J Urol,5.157,1995,Canada,35.0,65.0,,,,,Other,NA,No,No,VUR,No,0.01,Primary,No,No
+phn,5690,Renal Failure,1.07,2012,Turkey,30.0,12.0,,,,,Other,NA,No,No,PHN,No,0.0001,Primary,No,No
+phn,1111,Journal of endourology,2.023,2009,Turkey,15.0,17.0,,,,,RCT,NA,No,No,Stones,No,0.001,Secondary,No,No
+phn,1706,Clinical Radiology,2.282,2003,England,13.0,13.0,,,,,RCT,NA,No,No,VUR,No,0.014,Primary,No,No
+phn,530,J Ped Urol,1.935,2012,Turkey,12.0,6.0,,,,,RCT,NA,No,No,VUR,Yes,0.042,Primary,No,No
+phn,266,J Ped Urol,1.935,2016,Austria,6.0,0.0,,,,,Other,NA,No,No,VUR,No,0.00256,Primary,No,No
+phn,351,world J Urol,2.981,2015,Germany,8.0,7.0,,,,,Other,NA,No,No,UPJO,No,0.0001,Primary,No,No
+phn,496,Pediatric Nephrology,2.627,2015,India,23.0,10.0,,,,,RCT,Blocked,Yes,Yes,VUR,Yes,0.03,Primary,Yes,Yes
+phn,1442,BJUI,4.387,2006,Netherlands,22.0,14.0,,,,,Other,NA,No,No,UPJO,No,0.05,Primary,No,No
+phn,462,J Ped Urol,1.935,2014,USA,16.0,20.0,,,,,Other,NA,No,No,HUN,No,0.038,Primary,No,No
+phn,1045,J Urol,5.157,2010,Sweden,31.0,85.0,,,,,RCT,NA,No,No,VUR,No,0.0002,Primary,Yes,Yes
+phn,2144,J Urol,5.157,1999,USA,37.0,73.0,,,,,Other,NA,No,No,Ureterocele/duplex anomalies,No,0.01,Primary,No,No
+phn,941,JOURNAL OF LAPAROENDOSCOPIC & ADVANCED SURGICAL TECHNIQUES,1.257,2011,Brazil,2.0,10.0,,,,,Other,NA,No,No,UPJO,No,0.044,Secondary,No,No
+phn,1072,J Urol,5.157,2010,Iran,22.0,14.0,,,,,RCT,NA,No,Yes,VUR,No,0.002,Primary,No,No
+phn,1469,Pediatric Nephrology,2.627,2006,Greece,14.0,50.0,,,,,Other,NA,No,No,UTI,No,0.0001,Secondary,No,No
+phn,469,korean j urol,1.6,2014,Turkey,5.0,1.0,,,,,Other,NA,No,No,VUR,No,0.05,Secondary,No,No
+phn,243,Journal of Pediatric Surgery,1.733,2016,Turkey,4.0,7.0,,,,,Other,NA,No,No,VUR,No,0.007,Primary,No,No
+phn,247,Journal of Pediatric Surgery,1.733,2016,Turkey,3.0,7.0,,,,,Other,NA,No,No,VUR,No,0.024,Primary,No,No
+phn,776,J Urol,5.157,2012,Japan,24.0,15.0,,,,,RCT,NA,No,No,VUR,No,0.04,Primary,No,No
+phn,497,Journal of endourology,2.038,2015,India,18.0,8.0,,,,,RCT,Simple,No,No,Stones,No,0.02,Primary,No,No
+phn,274,J Ped Urol,1.935,2016,USA,6.0,15.0,,,,,Other,NA,No,No,VUR,No,0.004,Primary,No,Yes
+phn,1702,Urology,2.365,2003,USA,27.0,36.0,,,,,Other,NA,No,No,UPJO,No,0.05,Primary,No,No
+phn,52,world J Urol,2.981,2017,Netherlands,2.0,3.0,,,,,Other,NA,No,No,Stones,No,0.001,Primary,No,No
+phn,1273,J Urol,5.157,2008,USA,24.0,9.0,,,,,Other,NA,No,No,Ureterocele/duplex anomalies,No,0.05,Secondary,No,No
+phn,1572,Journal of Nuclear Medicine,6.646,2005,USA,20.0,19.0,,,,,Other,NA,No,No,UPJO,No,0.033,Primary,No,No
+phn,3402,J Urol,5.157,2014,Canada,27.0,8.0,,,,,RCT,Not Specified,Yes,Yes,UPJO,Yes,0.011,Primary,Yes,No
+phn,736,J Urol,5.157,2012,USA,34.0,29.0,,,,,Other,NA,No,No,UPJO,No,0.001,Primary,No,No
+phn,524,J Ped Urol,1.935,2013,India,11.0,9.0,,,,,Other,NA,No,No,PUV,No,0.005,Primary,No,No
+phn,1973,J Urol,5.157,2003,India,14.0,13.0,,,,,RCT,NA,No,No,Stones,No,0.04,Secondary,No,No
+phn,1461,J Urol,5.157,2006,USA,29.0,18.0,,,,,Other,NA,No,No,VUR,No,0.01,Primary,No,No
+phn,4737,J Urol,5.157,2004,USA,29.0,12.0,,,,,RCT,Simple,No,Yes,VUR,Yes,0.009,Primary,No,No
+phn,1432,European Urology,13.938,2006,England,27.0,25.0,,,,,Other,NA,No,No,UPJO,No,0.0072,Primary,No,No
+phn,944,Urologia Internationalis,1.508,2011,Iran,7.0,9.0,,,,,RCT,NA,No,No,Stones,Yes,0.001,Primary,No,No
+phn,449,J Urol,5.157,2014,Canada,4.0,7.0,,,,,RCT,Simple,No,No,VUR,Yes,0.05,Primary,No,No
+phn,18,Urology,2.365,2016,Egypt,6.0,2.0,,,,,RCT,Blocked,Yes,No,UPJO,Yes,0.017,Secondary,No,No
+phn,31,J Ped Urol,1.935,2017,Sweden,2.0,1.0,,,,,RCT,NA,No,No,VUR,No,0.05,Primary,No,Yes
+phn,34,J Ped Urol,1.935,2017,Sweden,2.0,4.0,,,,,RCT,NA,No,No,VUR,No,0.039,Primary,No,No
+phn,1201,Pediatric Nephrology,2.627,2008,Hungary,14.0,2.0,,,,,Other,NA,No,No,VUR,No,0.05,Secondary,No,No
+phn,1775,Pediatric Nephrology,2.627,2004,Chile,7.0,94.0,,,,,Other,NA,No,No,UTI,No,0.0001,Primary,No,No
+phn,252,Urology,2.365,2016,USA,8.0,2.0,,,,,Other,NA,No,No,VUR,No,0.01,Secondary,No,No
+phn,967,J Urol,5.157,2011,USA,10.0,8.0,,,,,Other,NA,No,No,Ureterocele/duplex anomalies,No,0.05,Primary,No,No
+phn,971,Pediatric Surgery International,1.476,2011,England,14.0,4.0,,,,,Other,NA,No,No,Ureterocele/duplex anomalies,No,0.04,Primary,No,No
+phn,1286,International Urology Nephrology,1.692,2009,Turkey,12.0,6.0,,,,,Other,NA,No,No,VUR,No,0.05,Primary,No,No
+phn,1328,J Urol,5.157,2007,USA,9.0,30.0,,,,,Other,NA,No,No,UPJO,No,0.05,Secondary,No,No
+phn,1950,Pediatric Surgery International,1.476,2002,India,16.0,26.0,,,,,Other,NA,No,No,PUV,No,0.01,Primary,No,No
+phn,3329,pediatric anesthesia,1.85,2015,USA,0.0,0.0,,,,,Other,NA,No,No,UPJO,No,0.01,Primary,No,No
+phn,268,J Ped Urol,1.935,2016,Canada,24.0,8.0,,,,,Other,NA,No,No,UPJO,No,0.01,Primary,No,No
+phn,17,Urology,2.365,2017,Canada,24.0,0.0,,,,,Other,NA,No,No,UPJO,No,0.01,Primary,No,No
+phn,1398,J Urol,5.157,2008,France,9.0,224.0,,,,,RCT,Stratified,No,No,VUR,Yes,0.01,Primary,No,Yes
+phn,565,Urology,2.365,2013,Egypt,13.0,8.0,,,,,Other,NA,No,No,PUV,No,0.0012,Primary,No,No
+phn,2951,J Ped Urol,1.935,2017,USA,2.0,1.0,,,,,Other,NA,No,No,PHN,No,0.001,Primary,No,No
+phn,259,J Ped Urol,1.935,2016,Turkey,14.0,19.0,,,,,Other,NA,No,No,UPJO,No,0.02,Secondary,No,No
+phn,424,J Ped Urol,1.935,2014,Iran,10.0,6.0,,,,,Other,NA,No,No,UPJO,No,0.001,Secondary,No,No
+phn,613,J Ped Urol,1.935,2013,Germany,15.0,14.0,,,,,Other,NA,No,No,VUR,No,0.001,Primary,No,No
+phn,3124,J Ped Urol,1.935,2017,USA,23.0,4.0,,,,,Other,NA,No,No,UPJO,No,0.01,Primary,Yes,No
+phn,541,Journal of endourology,2.038,2013,Norway,1.0,11.0,,,,,Other,NA,No,No,Stones,No,0.05,Secondary,No,No
+phn,67,J Ped Urol,1.935,2017,USA,9.0,0.0,,,,,Other,NA,No,No,VUR,No,0.001,Primary,Yes,No
+phn,410,Journal of endourology,2.038,2014,India,9.0,7.0,,,,,RCT,Not Specified,Yes,No,Stones,No,0.04,Secondary,No,No
+phn,2240,ANZ J Surg,1.122,1998,Australia,6.0,14.0,,,,,Other,NA,No,No,UPJO,No,0.05,Primary,No,No
+phn,618,J Ped Urol,1.935,2013,India,12.0,6.0,,,,,Other,NA,No,No,PUV,No,0.02,Primary,No,No
+phn,968,J Urol,5.157,2011,USA,9.0,12.0,,,,,Other,NA,No,No,UPJO,No,0.04,Secondary,No,No
+phn,3986,J Urol,5.157,2009,Israel,8.0,3.0,,,,,RCT,Not Specified,No,No,UPJO,No,0.02,Primary,No,No
+phn,2546,J Urol,5.157,1993,USA,54.0,105.0,,,,,Other,NA,No,No,Ureterocele/duplex anomalies,No,0.01,Primary,No,No
+phn,2405,Urology,2.365,1995,USA,83.0,221.0,,,,,Other,NA,No,No,UPJO,No,0.05,Primary,No,No
+phn,1392,Surgical Endoscopy and Other Interventional Techniques,3.747,2008,England,12.0,48.0,,,,,Other,NA,No,No,UPJO,No,0.001,Secondary,No,No
+phn,2130,J Urol,5.157,1999,Canada,27.0,66.0,,,,,Other,NA,No,No,UPJO,No,0.05,Secondary,No,No
+phn,4011,Pediatric Surgery International,1.476,2010,Italy,19.0,5.0,,,,,Other,NA,No,No,UPJO,No,0.0001,Secondary,No,No
+phn,1980,J Urol,5.157,2003,China,22.0,52.0,,,,,RCT,NA,No,No,Stones,No,0.01,Secondary,No,No
+phn,708,Urological Research,2.038,2012,Egypt,3.0,20.0,,,,,RCT,Not Specified,Yes,Yes,Stones,No,0.0001,Primary,No,No
+phn,2078,Urology,2.365,2001,USA,57.0,62.0,,,,,Other,NA,No,No,Stones,No,0.004,Primary,No,No
+phn,1473,International journal of urology,1.941,2006,Egypt,5.0,13.0,,,,,RCT,NA,No,No,Stones,No,0.05,Secondary,No,No
+phn,3983,JOURNAL OF LAPAROENDOSCOPIC & ADVANCED SURGICAL TECHNIQUES,1.257,2009,India,8.0,21.0,,,,,Other,NA,No,No,Stones,No,0.001,Primary,No,No
+phn,2745,J Urol,5.157,1986,Kuwait,11.0,16.0,,,,,RCT,NA,No,No,Stones,No,0.01,Primary,No,No
+phn,3397,Pediatric Surgery International,1.476,2014,Japan,16.0,2.0,,,,,Other,NA,No,No,UPJO,No,0.01,Primary,No,No
+phn,369,Journal of endourology,2.038,2015,USA,5.0,11.0,,,,,Other,NA,No,No,Ureterocele/duplex anomalies,No,0.03,Primary,No,No
+phn,20,Urology,2.365,2017,China,5.0,3.0,,,,,Other,NA,No,No,UPJO,No,0.01,Secondary,No,Yes
+phn,929,J Urol,5.159,2011,USA,34.0,91.0,,,,,Other,NA,No,No,VUR,No,0.01,Secondary,No,No
+phn,5604,Iran J Pediatr,0.902,2013,Iran,6.0,2.0,,,,,Other,NA,No,No,VUR,No,0.01,Primary,No,No
+phn,720,Scandinavian Journal of Urology and Nephrology,1.684,2012,Sweden,25.0,3.0,,,,,RCT,NA,No,No,VUR,No,0.001,Primary,No,Yes
+phn,473,Journal of the Society of Laparoendoscopic Surgeons,1.298,2014,India,11.0,2.0,,,,,RCT,NA,No,No,UPJO,No,0.02,Secondary,No,No
+phn,432,Urology,2.365,2014,USA,29.0,10.0,,,,,Other,NA,No,No,UPJO,No,0.01,Secondary,No,No
+phn,311,European Urology,13.938,2015,USA,18.0,47.0,,,,,RCT,Stratified,Yes,Yes,Stones,Yes,0.01,Primary,No,Yes
+phn,1133,J Ped Urol,1.935,2009,France,22.0,36.0,,,,,Other,NA,No,No,UPJO,No,0.05,Secondary,No,No
+phn,615,J Ped Urol,1.935,2013,Netherlands,4.0,15.0,,,,,Other,NA,No,No,UPJO,No,0.01,Secondary,No,No
+phn,1340,Anesthesia and Analgesia,3.827,2007,USA,14.0,38.0,,,,,RCT,Not Specified,Yes,Not specified,VUR,Yes,0.02,Primary,No,No
+phn,1037,Urology,2.365,2010,USA,11.0,18.0,,,,,Other,NA,No,No,UPJO,No,0.039,Primary,No,No
+phn,2350,J Urol,5.159,1997,Taiwan,11.0,18.0,,,,,Other,NA,No,No,VUR,No,0.01,Primary,No,No
+phn,1370,Urology,2.365,2007,USA,8.0,18.0,,,,,Other,NA,No,No,VUR,No,0.01,Primary,No,No
+phn,943,world J Urol,2.981,2011,Turkey,4.0,19.0,,,,,RCT,NA,No,No,Stones,No,0.01,Secondary,No,No
+phn,519,urolithiasis,2.038,2013,Italy,11.0,14.0,,,,,Other,NA,No,No,Stones,No,0.001,Secondary,No,No
+phn,511,Urology,2.365,2013,Korea,10.0,12.0,,,,,Other,NA,No,No,VUR,No,0.023,Secondary,No,No
+phn,5636,Prenatal Diagnosis,2.779,2018,Israel,6.0,0.0,,,,,Other,NA,No,No,PHN,No,0.014,Primary,No,No
+neg,1027,Urology,2.365,2010,France,21.0,17.0,0.9,45.0,18.0,0.0,Other,NA,No,No,pyeloplasty,No,0.74,Primary,No,No
+neg,2874,BMJ,27.604,1983,England,33.0,51.0,,16.0,5.0,0.0,Other,NA,No,No,VUR,No,1.0,Primary,No,No
+neg,2762,BMJ,27.604,1987,England,33.0,230.0,,38.0,,0.0,Other,NA,No,No,VUR,No,0.36,Primary,No,No
+neg,1914,Pediatric Surgery International,1.476,2002,Turkey,15.0,20.0,0.42,7.0,10.0,0.0,Other,NA,No,No,pyeloplasty,No,1.0,Primary,No,No
+neg,402,J ped urol,1.736,2013,USA,16.0,19.0,2.06,18.0,49.0,2.0,Other,NA,No,No,pyeloplasty,No,1.0,Primary,No,No
+neg,999,Urology,2.365,2014,USA,16.0,11.0,1.1,42.0,15.0,0.0,Other,NA,No,No,robotics,No,1.0,Secondary,No,No
+neg,998,J Urol,5.157,1999,Canada,29.0,52.0,0.96,48.0,14.0,0.0,Other,NA,No,No,VUR,No,0.152,Primary,No,No
+neg,902,J ped urol,1.736,2011,Italy,8.0,2.0,,15.0,28.0,0.0,Other,NA,No,No,VUR,No,0.34,Primary,No,No
+neg,2495,J Urol,5.157,1996,USA,36.0,23.0,1.16,2.0,,0.0,Other,NA,No,No,pyeloplasty,No,1.0,Primary,Yes,No
+neg,997,J Urol,5.157,2005,France,28.0,110.0,5.13,8.0,19.0,0.0,Other,NA,No,No,pyeloplasty,No,1.0,Primary,No,No
+neg,996,BJUI,4.524,2001,Australia,16.0,77.0,1.73,32.0,13.0,0.0,Other,NA,No,No,nephrectomy,No,0.156,Secondary,No,No
+neg,2674,J Urol,5.157,1991,USA,16.0,36.0,,0.0,1.0,0.0,Other,NA,No,No,VUR,No,0.67,Secondary,No,No
+neg,1788,J Urol,5.157,2004,USA,20.0,32.0,0.88,10.0,15.0,0.0,Other,NA,No,No,Megaureter,No,0.35,Primary,No,No
+neg,2373,J Urol,5.157,1997,Switzerland,26.0,31.0,4.16,1.0,2.0,0.0,Other,NA,No,No,VUR,No,0.35,Primary,No,No
+neg,925,J Urol,5.157,2011,Japan,24.0,11.0,0.12,62.0,18.0,0.0,Other,NA,No,No,pyeloplasty,No,0.06,Primary,No,No
+neg,234,Investigative and clinical urology,1.638,2016,Korea,10.0,2.0,0.28,5.0,2.0,0.0,Other,NA,No,No,VUR,No,1.0,Primary,No,No
+neg,324,Annals of the Royal College of Surgeons of England,1.268,2015,USA,21.0,9.0,1.31,7.0,25.0,0.0,Other,NA,No,No,pyeloplasty,No,0.09,Primary,No,No
+neg,4326,J Urol,5.157,2008,USA,6.0,8.0,0.68,41.0,13.0,0.0,Other,NA,No,No,pyeloplasty,No,0.06,Primary,No,No
+neg,1261,J ped urol,1.736,2008,USA,39.0,17.0,0.93,18.0,5.0,0.0,Other,NA,No,No,pyeloplasty,No,0.06,Primary,No,No
+neg,1954,Urology,2.365,2002,Austria,34.0,77.0,2.43,25.0,10.0,0.0,Other,Not Specified,No,No,VUR,No,0.0536,Primary,Yes,No
+neg,1452,J Urol,5.157,2006,Canada,9.0,71.0,3.53,10.0,23.0,0.0,Other,NA,No,No,nephrectomy,No,1.0,Primary,No,No
+neg,434,J ped urol,1.736,2014,USA,20.0,30.0,2.38,30.0,22.0,0.0,Other,NA,No,No,VUR,No,0.083,Primary,No,No
+neg,110,Plos,2.776,2017,Korea,12.0,10.0,1.89,4382.0,60.0,0.0,Other,NA,No,No,pyeloplasty,No,0.06,Primary,No,No
+neg,1156,Urology,2.365,2009,China,26.0,18.0,0.83,164.0,12.0,0.0,Other,NA,No,No,pyeloplasty,No,0.4,Primary,No,Yes
+neg,2213,J Urol,5.157,1998,USA,24.0,18.0,0.95,9.0,0.0,0.0,Other,NA,No,No,pyeloplasty,No,1.0,Secondary,No,No
+neg,1433,Urology,2.365,2006,USA,21.0,120.0,4.23,37.0,29.0,0.0,Other,NA,No,No,pyeloplasty,No,1.0,Primary,No,No
+neg,354,J ped urol,1.736,2015,Egypt,6.0,11.0,1.1,8.0,24.0,0.0,RCT,Not Specified,Yes,No,pyeloplasty,Yes,1.0,Primary,No,No
+neg,102,Jama peds,12.004,2017,USA,12.0,15.0,4.65,127.0,51.0,1.0,Other,NA,No,No,VUR,No,0.92,Primary,Yes,No
+neg,2699,Urology,2.365,1992,USA,29.0,7.0,,1.0,0.0,0.0,Other,NA,No,No,VUR,No,0.06,Primary,No,No
+neg,4702,Journal of Antimicrobial Chemotherapy,5.217,1982,Sweden,4.0,4.0,,3.0,0.0,0.0,RCT,Not Specified,Yes,Yes,BBD,No,1.0,Primary,No,No
+neg,31766,BJUI,4.524,2008,Germany,10.0,7.0,0.14,913.0,29.0,0.0,Other,NA,No,No,BBD,No,0.06,Primary,No,No
+neg,21067,Behaviour Research and Therapy,4.134,1982,Australia,4.0,21.0,,130.0,31.0,0.0,Other,NA,No,No,BBD,No,0.06,Primary,No,No
+neg,35728,J ped urol,1.736,2011,England,21.0,15.0,1.2,198.0,62.0,0.0,RCT,Not Specified,Yes,Yes,BBD,Yes,0.06,Primary,No,Yes
+neg,35053,J ped urol,1.736,2014,Italy,22.0,24.0,2.38,45.0,28.0,0.0,RCT,Not Specified,Yes,Yes,BBD,No,0.89,Primary,No,No
+neg,35708,J Urol,5.157,2010,USA,8.0,0.0,,673.0,30.0,0.0,Other,NA,No,No,BBD,No,0.061,Primary,No,No
+neg,31032,J Urol,5.157,2006,Netherlands,19.0,40.0,0.99,33.0,51.0,0.0,RCT,Stated,Yes,Yes,BBD,No,0.06,Primary,No,No
+neg,35826,J ped urol,1.736,2012,Netherlands,2.0,16.0,0.48,52.0,43.0,0.0,RCT,Stated,Yes,Yes,BBD,Yes,1.0,Primary,Yes,Yes
+neg,30393,Urology,2.365,2005,Japan,28.0,16.0,0.29,42.0,2.0,0.0,Other,NA,No,No,BBD,No,0.082,Primary,No,No
+neg,486,j ped surg,1.733,2018,Turkey,5.0,2.0,1.26,19.0,24.0,0.0,RCT,Not Specified,Yes,Yes,BBD,No,0.407,Primary,No,No
+neg,34249,European Urology,17.581,2001,Austria,34.0,53.0,2.25,36.0,31.0,1.0,RCT,Not Specified,Yes,Yes,BBD,No,0.06,Primary,No,No
+neg,27845,Int Urol Nephrol,1.596,2015,Turkey,9.0,4.0,0.23,0.0,15.0,0.0,Other,NA,No,No,BBD,No,1.0,Primary,No,No
+neg,60645,Iranian Journal of Child Neurology,0.029,2010,Iran,3.0,0.0,,0.0,0.0,0.0,RCT,Stated,Yes,Yes,BBD,No,0.08,Primary,No,No
+neg,342,J Urol,5.157,2018,Japan,25.0,2.0,0.96,36.0,8.0,1.0,Other,NA,No,No,BBD,No,1.0,Primary,No,No
+neg,842,J ped urol,1.736,2016,Brazil,17.0,1.0,0.17,34.0,61.0,0.0,Other,NA,No,No,BBD,No,0.88,Primary,No,No
+neg,34449,The Journal of international medical research,1.351,2003,Turkey,,15.0,0.08,36.0,22.0,0.0,RCT,Not Specified,Yes,Yes,BBD,No,1.0,Secondary,No,No

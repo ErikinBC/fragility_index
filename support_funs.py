@@ -1,14 +1,17 @@
 # -*- coding: utf-8 -*-
-"""
-SCRIPT THAT CONTAINS SUPPORT DICTIONARIES AND FUNCTIONS FOR FI SCRIPT
-"""
-
+import os
 import numpy as np
 import sys
 
-def stopifnot(cond):
+def stopifnot(cond,msg='error! condition is not met'):
     if not cond:
-        sys.exit('Error! Condition is not met')
+        sys.exit(msg)
+        
+def makeifnot(path):
+  if not os.path.exists(path):
+    print('Path does not exist: %s' % path)
+    os.mkdir(path)
+
 
 ###############################################################################
 # -------------------------------- BBD PAPERS ------------------------------- # 
