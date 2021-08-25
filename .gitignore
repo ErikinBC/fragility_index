@@ -2,4 +2,5 @@
 .vscode/
 /papers
 *~lock*
-__pychache__/
+__pycache__/
+*ipynb
