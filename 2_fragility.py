@@ -30,7 +30,6 @@ assert np.all(np.array(forward1['tbl_FI']) == np.array(backward1['tbl_FI']))
 assert np.all(np.array(forward2['tbl_FI']) == np.array(backward2['tbl_FI']))
 
 
-
 ##############################
 # ----- (2) Calculate FI --- #
 
@@ -40,56 +39,50 @@ vec_swap = np.tile([1,2],3)
 holder = []
 for ii, rr in df_FI.iterrows():
     n1A, n1, n2A, n2 = rr['num_out1'], rr['num1'], rr['num_out2'], rr['num2']
-    print('Study %i of %i (n=%i)' % (ii+1, df_FI.shape[0], n1+n2))
+    print('Study %i of %i (ii=%i)' % (ii+1, df_FI.shape[0], n1+n2))
+    
     # (i) Fisher
+    print('fisher_1')
     fisher_1 = FI_func(n1A, n1, n2A, n2, 'fisher', 1, None, None, None, 0.05)
-    fisher_2 = FI_func(n1A, n1, n2A, n2, 'fisher', 2, None, None, None, 0.05)
+    print('fisher_2')
+    if fisher_1['FI'] > 0:
+        fisher_2 = FI_func(n1A, n1, n2A, n2, 'fisher', 2, None, None, None, 0.05)
+    else:  # If baseline result is insig (i.e. pval>alpha), then swap=2 will have no effect
+        fisher_2 = fisher_1.copy()
+    
     # (ii) Chi2
+    print('chi2_1_False')
     chi2_1_False = FI_func(n1A, n1, n2A, n2, 'chi2', 1, None, None, None, 0.05, False)
-    chi2_2_False = FI_func(n1A, n1, n2A, n2, 'chi2', 2, None, None, None, 0.05, False)
+    print('chi2_2_False')
+    if chi2_1_False['FI'] > 0:
+        chi2_2_False = FI_func(n1A, n1, n2A, n2, 'chi2', 2, None, None, None, 0.05, False)
+    else:
+        chi2_2_False = chi2_1_False.copy()
+    
     # (iii) Chi2 + Continuity
+    print('chi2_1_True')
     chi2_1_True = FI_func(n1A, n1, n2A, n2, 'chi2', 1, None, None, None, 0.05, True)
-    chi2_2_True = FI_func(n1A, n1, n2A, n2, 'chi2', 2, None, None, None, 0.05, True)
+    print('chi2_2_True')
+    if chi2_1_True['FI'] > 0:
+        chi2_2_True = FI_func(n1A, n1, n2A, n2, 'chi2', 2, None, None, None, 0.05, True)
+    else:
+        chi2_2_True = chi2_1_True.copy()    
+    
     # (iv) Combine and store
     lst_res = [fisher_1, fisher_2, chi2_1_False, chi2_2_False, chi2_1_True, chi2_2_True]
     vec_FI = [lst['FI'] for lst in lst_res]
-    vec_pval = [lst['pv_bl'] for lst in lst_res]
-    res = pd.DataFrame({'test':vec_test, 'swap':vec_swap,'FI':vec_FI,'pval':vec_pval})
+    vec_pvbl = [lst['pv_bl'] for lst in lst_res]
+    vec_pvFI = [lst['pv_FI'] for lst in lst_res]
+    res = pd.DataFrame({'test':vec_test, 'swap':vec_swap,'FI':vec_FI,'pval_bl':vec_pvbl,'pval_FI':vec_pvFI})
     res.insert(0,'ID',rr['ID'])
     res.insert(0,'tt',rr['tt'])
-
-
-    # # ---- Baseline significance ---- #
-    # if (n1A==0) & (n2A==0):
-    #     print('Zero events happened for either group')
-    #     pval_FI, pval_chi, pval_chi2 = 1, 1, 1
-    # else:
-    #     pval_FI, pval_chi, pval_chi2 = stats.fisher_exact(tab)[1], \
-    #                         stats.chi2_contingency(tab,correction=True)[1], \
-    #                         stats.chi2_contingency(tab,correction=False)[1]
-    # ---- Insignificant results ---- #
-    if rr['tt'] == 'neg': # reverse fragility
-        assert pval_FI > 0.05
-        tmp_fi = fi.fi_func_neg(n1a, n1, n2a, n2)['FI']
-        tmp_fi2 = tmp_fi.copy()
-    else: # normal fragility
-        if (n1+n2>2000): # run it backwards when its high
-            tmp_fi = fi.fi_func_rev(n1a,n1,n2a,n2)['FI']
-            tmp_fi2 = tmp_fi
-        else:
-            tmp_fi = fi.fi_func(n1a,n1,n2a,n2)['FI']
-            tmp_fi2 = fi.fi_func2(n1a,n1,n2a,n2)['FI']
-    # Save results    
-    tmp = rr[0:2].append(pd.Series({'pval_FI': pval_FI, 'pval_chi':pval_chi,
-                     'pval_chi2':pval_chi2,'FI':tmp_fi,'FI2':tmp_fi2}))
-    holder.append(tmp)
+    
+    # (v) Store and clean
+    holder.append(res)
+    del res, lst_res, vec_FI, vec_pvbl, vec_pvFI, fisher_1, fisher_2, chi2_1_False, chi2_2_False, chi2_1_True, chi2_2_True
 
 # Combine
-df_res = pd.concat(holder,axis=1).T
-df_res.to_csv(os.path.join(dir_base,'processed','df_res.csv'),index=False)
+df_res = pd.concat(holder).reset_index(None,drop=True)
+df_res.to_csv(os.path.join(dir_output,'df_res.csv'),index=False)
 
-if not df_res.shape[0] == df_FI.shape[0]:
-    import sys; sys.exit('error! IDs do not line up!')
-print('end of script!')
-
-
+print('~~~ End of 2_fragility.py ~~~')

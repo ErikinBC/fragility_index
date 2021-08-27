@@ -7,12 +7,19 @@ def pval_fisher(tbl, *args):
   return stats.fisher_exact(tbl,*args)[1]
 
 def pval_chi2(tbl, *args):
-  return stats.chi2_contingency(tbl,*args)[1]
+  tbl = np.array(tbl)
+  if np.all(tbl[:,0] == 0):
+    pval = np.nan
+  else:
+    pval = stats.chi2_contingency(tbl,*args)[1]
+  return pval
 
 def vprint(stmt, bool):
   if bool:
     print(stmt)
 
+# Control printing for debugging
+is_bool = False
 
 ##############################################################################
 # ------------------------ FRAGILITY INDEX FUNCTIONS ----------------------- # 
@@ -39,8 +46,8 @@ pv_bl:    The baseline p-value from the Fisher exact test
 pv_FI:    The infimum of non-signficant p-values
 """
 
-# n1A, n1, n2A, n2, n1B, n2B = 480, 860, 180, 430, None, None
-# statfun, swap, mode, alpha, args = 'fisher', 1, 'forward', 0.05, ()
+# n1A, n1, n2A, n2, n1B, n2B = 0, 64, 0, 17, None, None
+# statfun, swap, mode, alpha, args = 'chi2', 1, None, 0.05, (False,)
 def FI_func(n1A, n1, n2A, n2, statfun='fisher', swap=1, mode=None, n1B=None, n2B=None, alpha=0.05, *args):
   assert (swap == 1) or (swap == 2)
   assert (statfun == 'fisher') or (statfun == 'chi2')
@@ -80,15 +87,16 @@ def FI_func(n1A, n1, n2A, n2, statfun='fisher', swap=1, mode=None, n1B=None, n2B
   di_ret = {'FI':0, 'ineq':ineq, 'swap':swap, 'pv_bl':bl_pval, 'pv_FI':bl_pval, 'tbl_bl':tbl_bl, 'tbl_FI':tbl_bl}
   if bl_pval < alpha:  # Check that baseline result is actually significant
     FI, pval, tbl_FI = find_FI(n1A, n1B, n2A, n2B, sign1, sign2, swap, pval_fun, mode, alpha, *args)
-    # Update dictionary
-    di_ret['FI'] = FI
-    di_ret['pv_FI'] = pval
-    di_ret['tbl_FI'] = tbl_FI
+  else:  # Use reverse FI
+    FI, pval, tbl_FI = rev_FI(n1A, n1B, n2A, n2B, pval_fun, alpha, *args)
+  # Update dictionary
+  di_ret['FI'] = FI
+  di_ret['pv_FI'] = pval
+  di_ret['tbl_FI'] = tbl_FI
   return di_ret
 
 # Back end function to perform the for-loop
-def find_FI(n1A, n1B, n2A, n2B, sign1, sign2, swap, pval_fun, mode='forward', alpha=0.05, *args):
-  is_bool = False
+def find_FI(n1A, n1B, n2A, n2B, sign1, sign2, swap, pval_fun, mode, alpha, *args):
   assert (mode == 'forward') or (mode == 'backward')
   n1a, n1b, n2a, n2b = n1A, n1B, n2A, n2B
   n1, n2 = n1A + n1B, n2A + n2B
@@ -101,7 +109,11 @@ def find_FI(n1A, n1B, n2A, n2B, sign1, sign2, swap, pval_fun, mode='forward', al
       n1b += sign1 * -1
       n2a += sign2 * 1
       n2b += sign2 * -1
-      tbl = [[n1a, n1b], [n2a, n2b]]
+      tbl = np.array([[n1a, n1b], [n2a, n2b]])
+      if np.all(tbl[:,0] == 0):
+        pval = np.nan
+        FI = 0
+        break
       pval = pval_fun(tbl, *args)
   else:
     prop1 = n1A / n1
@@ -129,52 +141,66 @@ def find_FI(n1A, n1B, n2A, n2B, sign1, sign2, swap, pval_fun, mode='forward', al
       FI = sign1*(n1a-n1A)
     else:
       FI = sign2*(n2a-n2A)
-  assert pval > alpha
+  assert (pval > alpha) | (np.isnan(pval))
   return FI, pval, tbl
 
 
 
-# --- FOR CALCULATING INSIFICANT RESULTS --- #
-def fi_func_neg(n1A, n1, n2A, n2, alpha=0.05):
-  n1B, n2B = n1 - n1A, n2 - n2A
-  prop1, prop2  = n1A / (n1A + n1B), n2A / (n2A + n2B)
-  # If both proportions < 50%, add to largest
-  # If both proportions > 50%, subtract from smaller
-  # If prop<50% - (100-prop>50%) > 0, subtract from prop<50%
-  # If prop<50% - (100-prop>50%) < 0, add to prop>60%
-  tbl = np.array([[n1A, n1B], [n2A, n2B]])
-  if ((prop1<0.5) & (prop2<0.5)):
-      if prop2 > prop1:
-          tbl = tbl[[1,0]]
-      k = +1
-  elif ((prop1>0.5) & (prop2>0.5)):
-      if prop2 < prop1:
-          tbl = tbl[[1,0]]
-      k = -1
-  elif ((prop1<=0.5) & (prop2>=0.5)):      
-      k = -1
-      if prop1 - (1 - prop2) < 0:
-          k = +1
-          tbl = tbl[[1,0]]
-  elif ((prop1>=0.5) & (prop2<=0.5)):
-      k = +1
-      if (1-prop1) - prop2 < 0:
-          k = -1
-          tbl = tbl[[1,0]]
-  bl_pval = stats.fisher_exact(tbl)[1] # baseline p-value
-  stopifnot(bl_pval  > alpha,'woah sig result!')
-  tbl_FI = tbl.copy()
-  fi_pval = 1
-  ii = 0
-  while fi_pval > alpha:
-    ii += 1
-    tbl_FI[0,0] += k
-    tbl_FI[0, 1] += -k
-    fi_pval = stats.fisher_exact(tbl_FI)[1]
-  di_ret = {'FI':ii,'k':k, 'pv_bl':bl_pval, 'pv_FI':fi_pval}
-  return(di_ret)  
+"""
+Back end function to calculate the reverse FI for non-significant results
 
-
+(i)     If both proportions < 50%, add to largest
+(ii)    If both proportions > 50%, subtract from smaller
+(iii)   If prop1<=50% & prop2>=50%, subtract from 1 if prop1 > (1-prop2)
+(iv)    If prop1>=50% & prop2<=50%, add to 1 if (1-prop1) > prop2
+"""
+def rev_FI(n1A, n1B, n2A, n2B, pval_fun, alpha, *args):
+  n1, n2 = n1A + n1B, n2A + n2B
+  n1a, n1b, n2a, n2b = n1A, n1B, n2A, n2B
+  prop1, prop2  = n1a / n1, n2a / n2
+  # Set up the different conditions
+  if ((prop1<0.5) & (prop2<0.5)):  # (i)
+    sign1a, sign1b = +1, -1
+    sign2a, sign2b = +1, -1
+    if prop1 > prop2:
+      sign2a, sign2b = 0, 0
+    else:
+      sign1a, sign1b = 0, 0
+  elif ((prop1>0.5) & (prop2>0.5)):  # (ii)
+    sign1a, sign1b = -1, +1
+    sign2a, sign2b = -1, +1
+    if prop2 < prop1:
+      sign1a, sign1b = 0, 0
+    else:
+      sign2a, sign2b = 0, 0    
+  elif ((prop1<=0.5) & (prop2>=0.5)):  # (iii) 
+    sign1a, sign1b = -1, +1
+    sign2a, sign2b = +1, -1
+    if prop1 > (1-prop2):
+      sign2a, sign2b = 0, 0
+    else:
+      sign1a, sign1b = 0, 0
+  else: # ((prop1>=0.5) & (prop2<=0.5)):  # (iv)
+    sign1a, sign1b = +1, -1
+    sign2a, sign2b = -1, +1
+    if (1-prop1) > prop2:
+      sign2a, sign2b = 0, 0
+    else:
+      sign1a, sign1b = 0, 0
+  tbl = [[n1a, n1b], [n2a, n2b]]
+  pval = 1
+  rFI = 0
+  while pval > alpha:
+    rFI += 1
+    vprint('Step %i of %i' % (rFI, max(n1-n1A,n1-n1B)), is_bool)
+    tbl = [[n1a+sign1a, n1b+sign1b], [n2a+sign2a, n2b+sign2b]]
+    pval = pval_fun(tbl, *args)
+    n1a, n1b, n2a, n2b = tbl[0] + tbl[1]
+  FI = -rFI
+  return FI, pval, tbl
   
   
+
+
+
   

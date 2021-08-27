@@ -1,19 +1,22 @@
 #!/bin/bash
 
-# --- PIPELINE TO RECREATE RESULTS FOR FI STUDIES --- #
-# --- (1) process excel files --- #
-echo "Running 1_dataprep.py"
-python 1_dataprep.py
+# PIPELINE TO RECREATE RESULTS FOR FI STUDIES #
+
+echo "---- Running set_env.sh -----"
+source set_env.sh
+
+echo "---- Running 1_dataprep.py -----"
+python -u 1_dataprep.py
 # output: df_FI.csv, df_inf.csv
+
+echo "---- Running 2_fragility.py ----"
+python -u 2_fragility.py
+# output: df_res.csv
 
 
 echo "~~~ End of pipeline.sh ~~~"
 return
 
-# --- (2) calculate FI or rev FI --- #
-echo "Running 2_fragility.py"
-python 2_fragility.py
-# output: df_res.csv
 
 # --- (3) Calculate summary statistics and figures --- #
 echo "Running (3A)"
