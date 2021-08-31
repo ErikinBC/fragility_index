@@ -13,6 +13,18 @@ def makeifnot(path):
     os.mkdir(path)
 
 
+# Should Russia/Israel currently part of Asia
+di_region = {'Turkey':'Asia','Iran':'Asia','USA':'NAmerica','Brazil':'SAmerica',
+ 'Chile':'SAmerica','China':'Asia','Netherlands':'Europe','Italy':'Europe',
+ 'Belgium':'Europe','India':'Asia','Egypt':'Africa','Denmark':'Europe',
+ 'Taiwan':'Asia','Greece':'Europe','Russia':'Asia','Hungary':'Europe',
+ 'France':'Europe','England':'Europe','Germany':'Europe','Sweden':'Europe',
+ 'Australia':'Austalia','Israel':'Asia','Iraq':'Asia','Finland':'Europe',
+ 'Portugal':'Europe','Korea':'Asia','Canada':'NAmerica','Japan':'Asia','Serbia':'Europe',
+ 'Poland':'Europe','Austria':'Europe','Saudi Arabia':'Asia','Slovenia':'Europe',
+ 'Kuwait':'Asia','Norway':'Europe','Romania':'Europe','Switzerland':'Europe'}
+
+
 ###############################################################################
 # -------------------------------- BBD PAPERS ------------------------------- # 
 ###############################################################################
