@@ -199,4 +199,4 @@ dat_study_design = df_inf[['tt','study_design']].groupby(['tt']).apply(lambda x:
 dat_study_design.columns.name = ''
 print(np.round(dat_study_design,2))
 
-print('~~~ End of 3_results_FIFQ.py ~~~')
+print('~~~ End of 3a_results_FIFQ.py ~~~')
