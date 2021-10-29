@@ -10,7 +10,7 @@ This code will calculate the 1) p-value fragility (for significant studies), 2) 
 
 To replicate the results:
 
-1. Install conda environment: `conda install --file fi_env.txt`
+1. Install conda environment: `conda install --file conda.env`
 2. Run the python scripts in order: `source pipeline.sh`
 
 The pipeline shell is as follows:
