@@ -2,9 +2,8 @@
 
 Output from results used for the following studies:
 
-1. How popular is the bladder and bowel dysfunction literature: PlumX metrics contrasted with fragility indicators
-2. “Close to being significant:” reverse fragility index as a novel metric for null-effect studies in the Pediatric Urology literature
-3. A second-look at reported statistics: Challenges in replicating reported p-values in pediatric urology literature
+1. [Trends and relevance in the bladder and bowel dysfunction literature: PlumX metrics contrasted with fragility indicators](https://pubmed.ncbi.nlm.nih.gov/32684443)
+2. [A second-look at reported statistics: Challenges in replicating reported p-values in pediatric urology literature](https://www.auajournals.org/doi/abs/10.1097/JU.0000000000002065.13)
 
 This code will calculate the 1) p-value fragility (for significant studies), 2) reverse p-value fragility (for non-significant studies), and 3) errors in reported p-value calculations.
 
