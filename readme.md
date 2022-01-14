@@ -16,6 +16,7 @@ To replicate the results:
 The pipeline shell is as follows:
 
 1. `1_dataprep.py`: This script loads in the hard-coded excel files that have the list of studies with the different group counts and study covariates (study year, impact factor, study design). It will output `~/output/{df_FI,df_inf}.csv`, the former having the group 1/2 counts, and the latter havng the study annotations.
-2. 
-
+2. `2_fragility.py`: Calculates the different FI index measures for all studies and saves results in `df_res.csv`.
+3. `3_results_FIFQ.py`: Calculates statistical associations on different journal factors and FI/FQ measures.
+4. `4_results_insig.py`: Explores the papers that had baseline insignificant results and whether these could be accounted for.
 
